@@ -1,0 +1,6 @@
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\obj\Debug\RselectTest.csprojResolveAssemblyReference.cache
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\bin\Debug\RselectTest.dll.config
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\bin\Debug\RselectTest.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\bin\Debug\RselectTest.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\obj\Debug\RselectTest.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\obj\Debug\RselectTest.pdb

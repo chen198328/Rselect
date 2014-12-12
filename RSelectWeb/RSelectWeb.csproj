@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFF0BD09-34AC-4E13-902E-16022F440B5A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSelectWeb</RootNamespace>
+    <AssemblyName>RSelectWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Analysis.aspx" />
+    <Content Include="bootstrap\css\bootstrap-select.css" />
+    <Content Include="bootstrap\css\bootstrap-select.min.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\css\tabdrop.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap-modal.js" />
+    <Content Include="bootstrap\js\bootstrap-select.js" />
+    <Content Include="bootstrap\js\bootstrap-select.min.js" />
+    <Content Include="bootstrap\js\bootstrap-tabdrop.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\jquery.js" />
+    <Content Include="build\build.js" />
+    <Content Include="build\config-tpl.js" />
+    <Content Include="build\echarts-map.js" />
+    <Content Include="build\echarts-original-map.js" />
+    <Content Include="build\echarts-original.js" />
+    <Content Include="build\echarts-plain-map.js" />
+    <Content Include="build\echarts-plain-original-map.js" />
+    <Content Include="build\echarts-plain-original.js" />
+    <Content Include="build\echarts-plain.js" />
+    <Content Include="build\echarts.js" />
+    <Content Include="build\esl\css.js" />
+    <Content Include="build\esl\esl.js" />
+    <Content Include="build\esl\js.js" />
+    <Content Include="build\r.js" />
+    <Content Include="build\wrap\almond.js" />
+    <Content Include="build\wrap\end-map.js" />
+    <Content Include="build\wrap\end.js" />
+    <Content Include="build\wrap\start.js" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analysis.aspx.cs">
+      <DependentUpon>Analysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analysis.aspx.designer.cs">
+      <DependentUpon>Analysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="echart\chart.js" />
+    <Content Include="echart\chart\bar.js" />
+    <Content Include="echart\chart\base.js" />
+    <Content Include="echart\chart\chord.js" />
+    <Content Include="echart\chart\force.js" />
+    <Content Include="echart\chart\forceLayoutWorker.js" />
+    <Content Include="echart\chart\funnel.js" />
+    <Content Include="echart\chart\gauge.js" />
+    <Content Include="echart\chart\island.js" />
+    <Content Include="echart\chart\k.js" />
+    <Content Include="echart\chart\line.js" />
+    <Content Include="echart\chart\map.js" />
+    <Content Include="echart\chart\pie.js" />
+    <Content Include="echart\chart\radar.js" />
+    <Content Include="echart\chart\scatter.js" />
+    <Content Include="echart\component.js" />
+    <Content Include="echart\component\axis.js" />
+    <Content Include="echart\component\base.js" />
+    <Content Include="echart\component\categoryAxis.js" />
+    <Content Include="echart\component\dataRange.js" />
+    <Content Include="echart\component\dataView.js" />
+    <Content Include="echart\component\dataZoom.js" />
+    <Content Include="echart\component\grid.js" />
+    <Content Include="echart\component\legend.js" />
+    <Content Include="echart\component\polar.js" />
+    <Content Include="echart\component\timeline.js" />
+    <Content Include="echart\component\title.js" />
+    <Content Include="echart\component\toolbox.js" />
+    <Content Include="echart\component\tooltip.js" />
+    <Content Include="echart\component\valueAxis.js" />
+    <Content Include="echart\config.js" />
+    <Content Include="echart\echarts.js" />
+    <Content Include="echart\theme\default.js" />
+    <Content Include="echart\util\accMath.js" />
+    <Content Include="echart\util\coordinates.js" />
+    <Content Include="echart\util\ecAnimation.js" />
+    <Content Include="echart\util\ecData.js" />
+    <Content Include="echart\util\ecEffect.js" />
+    <Content Include="echart\util\ecQuery.js" />
+    <Content Include="echart\util\kwargs.js" />
+    <Content Include="echart\util\mapData\geoCoord.js" />
+    <Content Include="echart\util\mapData\geoJson\an_hui_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\ao_men_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\bei_jing_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\china_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\chong_qing_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\fu_jian_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\gan_su_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\guang_dong_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\guang_xi_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\gui_zhou_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\hai_nan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\hei_long_jiang_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\he_bei_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\he_nan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\hu_bei_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\hu_nan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\jiang_su_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\jiang_xi_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\ji_lin_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\liao_ning_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\nei_meng_gu_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\ning_xia_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\qing_hai_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\shang_hai_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\shan_dong_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\shan_xi_1_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\shan_xi_2_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\si_chuan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\tai_wan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\tian_jin_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\world_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\xiang_gang_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\xin_jiang_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\xi_zang_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\yun_nan_geo.js" />
+    <Content Include="echart\util\mapData\geoJson\zhe_jiang_geo.js" />
+    <Content Include="echart\util\mapData\params.js" />
+    <Content Include="echart\util\mapData\rawData\encode.js" />
+    <Content Include="echart\util\mapData\textFixed.js" />
+    <Content Include="echart\util\ndarray.js" />
+    <Content Include="echart\util\number.js" />
+    <Content Include="echart\util\projection\albers.js" />
+    <Content Include="echart\util\projection\mercator.js" />
+    <Content Include="echart\util\projection\normal.js" />
+    <Content Include="echart\util\projection\svg.js" />
+    <Content Include="echart\util\shape\Candle.js" />
+    <Content Include="echart\util\shape\Chain.js" />
+    <Content Include="echart\util\shape\Chord.js" />
+    <Content Include="echart\util\shape\Cross.js" />
+    <Content Include="echart\util\shape\GaugePointer.js" />
+    <Content Include="echart\util\shape\HalfSmoothPolygon.js" />
+    <Content Include="echart\util\shape\HandlePolygon.js" />
+    <Content Include="echart\util\shape\Icon.js" />
+    <Content Include="echart\util\shape\MarkLine.js" />
+    <Content Include="echart\util\shape\normalIsCover.js" />
+    <Content Include="echart\util\shape\Symbol.js" />
+    <Content Include="img\line.png" />
+    <Content Include="img\power.png" />
+    <Content Include="img\scatter.png" />
+    <Content Include="js\bootstrap.css" />
+    <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\popup.js" />
+    <Content Include="js\popupclass.js" />
+    <Content Include="modal\bootstrap.css" />
+    <Content Include="modal\bootstrap.js" />
+    <Content Include="modal\jquery.js" />
+    <Content Include="Web.config" />
+    <Content Include="bootstrap\config.json" />
+    <Content Include="bootstrap\css\bootstrap-select.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\js\bootstrap-select.js.map" />
+    <Content Include="build\build.bat" />
+    <Content Include="build\build.sh" />
+    <Content Include="echart\util\mapData\rawData\geoJson\an_hui_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\ao_men_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\bei_jing_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\china_city.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\china_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\chong_qing_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\fu_jian_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\gan_su_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\guang_dong_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\guang_xi_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\gui_zhou_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\hai_nan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\hei_long_jiang_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\he_bei_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\he_nan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\hu_bei_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\hu_nan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\jiang_su_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\jiang_xi_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\ji_lin_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\liao_ning_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\nei_meng_gu_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\ning_xia_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\qing_hai_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\shang_hai_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\shan_dong_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\shan_xi_1_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\shan_xi_2_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\si_chuan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\tai_wan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\tian_jin_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\world_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\xiang_gang_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\xin_jiang_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\xi_zang_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\yun_nan_geo.json" />
+    <Content Include="echart\util\mapData\rawData\geoJson\zhe_jiang_geo.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5884</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5884/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

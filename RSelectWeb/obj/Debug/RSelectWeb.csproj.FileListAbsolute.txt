@@ -1,0 +1,7 @@
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\bin\RSelectWeb.dll.config
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\bin\RSelectWeb.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\bin\RSelectWeb.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\bin\Microsoft.Web.Infrastructure.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\obj\Debug\RSelectWeb.csprojResolveAssemblyReference.cache
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\obj\Debug\RSelectWeb.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RSelectWeb\obj\Debug\RSelectWeb.pdb

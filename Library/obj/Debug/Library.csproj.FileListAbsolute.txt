@@ -1,0 +1,14 @@
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\Library.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\Library.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.CommonEntity.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.Core.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\XCode.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.CommonEntity.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.CommonEntity.xml
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.Core.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\NewLife.Core.xml
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\XCode.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\bin\Debug\XCode.xml
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\obj\Debug\Library.dll
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\obj\Debug\Library.pdb
+d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
