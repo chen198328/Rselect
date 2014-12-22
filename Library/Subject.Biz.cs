@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
@@ -11,11 +11,10 @@ using XCode.Configuration;
 
 namespace Rselect
 {
-    /// <summary>Subject</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     public partial class Subject : Entity<Subject>
     {
-        #region 对象操作
+        #region 对象操作﻿
 
         /// <summary>验证数据，通过抛出异常的方式提示验证失败。</summary>
         /// <param name="isNew"></param>
@@ -49,6 +48,7 @@ namespace Rselect
         //    var entity = new Subject();
         //    entity.Name = "abc";
         //    entity.DomainId = 0;
+        //    entity.ClusterId = 0;
         //    entity.Insert();
 
         //    if (XTrace.Debug) XTrace.WriteLine("完成初始化{0}[{1}]数据！", typeof(Subject).Name, Meta.Table.DataTable.DisplayName);
@@ -58,7 +58,7 @@ namespace Rselect
         /// <returns></returns>
         protected override int OnDelete()
         {
-            if (Indicators != null) Indicators.Delete();
+			if (Indicators != null) Indicators.Delete();
 
             return base.OnDelete();
         }
@@ -78,24 +78,24 @@ namespace Rselect
         //}
         #endregion
 
-        #region 扩展属性
+        #region 扩展属性﻿
         [NonSerialized]
-        private EntityList<Indicator> _Indicators;
-        /// <summary>该Subject所拥有的Indicator集合</summary>
-        [XmlIgnore]
-        public EntityList<Indicator> Indicators
-        {
-            get
-            {
-                if (_Indicators == null && id > 0 && !Dirtys.ContainsKey("Indicators"))
+		private EntityList<Indicator> _Indicators;
+		/// <summary>该Subject所拥有的Indicator集合</summary>
+		[XmlIgnore]
+		public EntityList<Indicator> Indicators
+		{
+			get
+			{
+				if (_Indicators == null && id > 0 && !Dirtys.ContainsKey("Indicators"))
                 {
-                    _Indicators = Indicator.FindAllBySubjectId(id);
-                    Dirtys["Indicators"] = true;
-                }
-                return _Indicators;
-            }
-            set { _Indicators = value; }
-        }
+					_Indicators = Indicator.FindAllBySubjectId(id);
+					Dirtys["Indicators"] = true;
+				}
+				return _Indicators;
+			}
+			set { _Indicators = value; }
+		}
 
         [NonSerialized]
         private Domain _Domain;
@@ -120,7 +120,7 @@ namespace Rselect
         public String DomainName { get { return Domain != null ? Domain.Name : null; } }
         #endregion
 
-        #region 扩展查询
+        #region 扩展查询﻿
         /// <summary>根据id查找</summary>
         /// <param name="__id"></param>
         /// <returns></returns>
@@ -130,7 +130,7 @@ namespace Rselect
             if (Meta.Count >= 1000)
                 return Find(_.id, __id);
             else // 实体缓存
-                return Meta.Cache.Entities.Find(__.id, __id);
+                return Meta.Cache.Entities.Find(_.id, __id);
             // 单对象缓存
             //return Meta.SingleCache[__id];
         }
@@ -144,7 +144,7 @@ namespace Rselect
             if (Meta.Count >= 1000)
                 return FindAll(_.DomainId, domainid);
             else // 实体缓存
-                return Meta.Cache.Entities.FindAll(__.DomainId, domainid);
+                return Meta.Cache.Entities.FindAll(_.DomainId, domainid);
         }
         #endregion
 

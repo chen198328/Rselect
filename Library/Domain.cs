@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml.Serialization;
@@ -8,19 +8,19 @@ using XCode.DataAccessLayer;
 
 namespace Rselect
 {
-    /// <summary>Domain</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     [Serializable]
     [DataObject]
     [Description("")]
+    [BindIndex("PK__Domain__145C0A3F", true, "id")]
     [BindRelation("id", true, "Subject", "DomainId")]
-    [BindTable("Domain", Description = "", ConnName = "Reslect", DbType = DatabaseType.SqlServer)]
+    [BindTable("Domain", Description = "", ConnName = "Rselect", DbType = DatabaseType.SqlServer)]
     public partial class Domain : IDomain
     {
         #region 属性
         private Int32 _id;
         /// <summary></summary>
-        [DisplayName("ID")]
+        [DisplayName("id")]
         [Description("")]
         [DataObjectField(true, true, false, 10)]
         [BindColumn(1, "id", "", null, "int", 10, 0, false)]
@@ -75,7 +75,7 @@ namespace Rselect
         #endregion
 
         #region 字段名
-        /// <summary>取得Domain字段信息的快捷方式</summary>
+        /// <summary>取得字段信息的快捷方式</summary>
         public partial class _
         {
             ///<summary></summary>
@@ -87,7 +87,7 @@ namespace Rselect
             static Field FindByName(String name) { return Meta.Table.FindByName(name); }
         }
 
-        /// <summary>取得Domain字段名称的快捷方式</summary>
+        /// <summary>取得字段名称的快捷方式</summary>
         partial class __
         {
             ///<summary></summary>
@@ -100,8 +100,7 @@ namespace Rselect
         #endregion
     }
 
-    /// <summary>Domain接口</summary>
-    /// <remarks></remarks>
+    /// <summary>接口</summary>
     public partial interface IDomain
     {
         #region 属性

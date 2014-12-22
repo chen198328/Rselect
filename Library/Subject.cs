@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml.Serialization;
@@ -8,22 +8,21 @@ using XCode.DataAccessLayer;
 
 namespace Rselect
 {
-    /// <summary>Subject</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     [Serializable]
     [DataObject]
     [Description("")]
-    [BindIndex("PK_Subject", true, "id")]
+    [BindIndex("PK__Subject__1BFD2C07", true, "id")]
     [BindIndex("IX_Subject_DomainId", false, "DomainId")]
     [BindRelation("id", true, "Indicator", "SubjectId")]
     [BindRelation("DomainId", false, "Domain", "id")]
-    [BindTable("Subject", Description = "", ConnName = "Reslect", DbType = DatabaseType.SqlServer)]
+    [BindTable("Subject", Description = "", ConnName = "Rselect", DbType = DatabaseType.SqlServer)]
     public partial class Subject : ISubject
     {
         #region 属性
         private Int32 _id;
         /// <summary></summary>
-        [DisplayName("ID")]
+        [DisplayName("id")]
         [Description("")]
         [DataObjectField(true, true, false, 10)]
         [BindColumn(1, "id", "", null, "int", 10, 0, false)]
@@ -56,6 +55,18 @@ namespace Rselect
             get { return _DomainId; }
             set { if (OnPropertyChanging(__.DomainId, value)) { _DomainId = value; OnPropertyChanged(__.DomainId); } }
         }
+
+        private Int32 _ClusterId;
+        /// <summary></summary>
+        [DisplayName("ClusterId")]
+        [Description("")]
+        [DataObjectField(false, false, true, 10)]
+        [BindColumn(4, "ClusterId", "", null, "int", 10, 0, false)]
+        public virtual Int32 ClusterId
+        {
+            get { return _ClusterId; }
+            set { if (OnPropertyChanging(__.ClusterId, value)) { _ClusterId = value; OnPropertyChanged(__.ClusterId); } }
+        }
         #endregion
 
         #region 获取/设置 字段值
@@ -75,6 +86,7 @@ namespace Rselect
                     case __.id : return _id;
                     case __.Name : return _Name;
                     case __.DomainId : return _DomainId;
+                    case __.ClusterId : return _ClusterId;
                     default: return base[name];
                 }
             }
@@ -85,6 +97,7 @@ namespace Rselect
                     case __.id : _id = Convert.ToInt32(value); break;
                     case __.Name : _Name = Convert.ToString(value); break;
                     case __.DomainId : _DomainId = Convert.ToInt32(value); break;
+                    case __.ClusterId : _ClusterId = Convert.ToInt32(value); break;
                     default: base[name] = value; break;
                 }
             }
@@ -92,7 +105,7 @@ namespace Rselect
         #endregion
 
         #region 字段名
-        /// <summary>取得Subject字段信息的快捷方式</summary>
+        /// <summary>取得字段信息的快捷方式</summary>
         public partial class _
         {
             ///<summary></summary>
@@ -104,10 +117,13 @@ namespace Rselect
             ///<summary></summary>
             public static readonly Field DomainId = FindByName(__.DomainId);
 
+            ///<summary></summary>
+            public static readonly Field ClusterId = FindByName(__.ClusterId);
+
             static Field FindByName(String name) { return Meta.Table.FindByName(name); }
         }
 
-        /// <summary>取得Subject字段名称的快捷方式</summary>
+        /// <summary>取得字段名称的快捷方式</summary>
         partial class __
         {
             ///<summary></summary>
@@ -119,12 +135,14 @@ namespace Rselect
             ///<summary></summary>
             public const String DomainId = "DomainId";
 
+            ///<summary></summary>
+            public const String ClusterId = "ClusterId";
+
         }
         #endregion
     }
 
-    /// <summary>Subject接口</summary>
-    /// <remarks></remarks>
+    /// <summary>接口</summary>
     public partial interface ISubject
     {
         #region 属性
@@ -136,6 +154,9 @@ namespace Rselect
 
         /// <summary></summary>
         Int32 DomainId { get; set; }
+
+        /// <summary></summary>
+        Int32 ClusterId { get; set; }
         #endregion
 
         #region 获取/设置 字段值

@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
@@ -11,11 +11,10 @@ using XCode.Configuration;
 
 namespace Rselect
 {
-    /// <summary>Indicator</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     public partial class Indicator : Entity<Indicator>
     {
-        #region 对象操作
+        #region 对象操作﻿
 
         /// <summary>验证数据，通过抛出异常的方式提示验证失败。</summary>
         /// <param name="isNew"></param>
@@ -72,7 +71,7 @@ namespace Rselect
         //}
         #endregion
 
-        #region 扩展属性
+        #region 扩展属性﻿
         [NonSerialized]
         private Subject _Subject;
         /// <summary>该Indicator所对应的Subject</summary>
@@ -112,9 +111,13 @@ namespace Rselect
             }
             set { _Year = value; }
         }
+
+        /// <summary>该Indicator所对应的YearName</summary>
+        [XmlIgnore]
+        public String YearName { get { return Year != null ? Year.Name : null; } }
         #endregion
 
-        #region 扩展查询
+        #region 扩展查询﻿
         /// <summary>根据SubjectId查找</summary>
         /// <param name="subjectid"></param>
         /// <returns></returns>
@@ -124,7 +127,7 @@ namespace Rselect
             if (Meta.Count >= 1000)
                 return FindAll(_.SubjectId, subjectid);
             else // 实体缓存
-                return Meta.Cache.Entities.FindAll(__.SubjectId, subjectid);
+                return Meta.Cache.Entities.FindAll(_.SubjectId, subjectid);
         }
 
         /// <summary>根据YearId查找</summary>
@@ -136,7 +139,7 @@ namespace Rselect
             if (Meta.Count >= 1000)
                 return FindAll(_.YearId, yearid);
             else // 实体缓存
-                return Meta.Cache.Entities.FindAll(__.YearId, yearid);
+                return Meta.Cache.Entities.FindAll(_.YearId, yearid);
         }
         #endregion
 

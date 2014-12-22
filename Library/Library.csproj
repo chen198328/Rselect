@@ -50,10 +50,11 @@
   <ItemGroup>
     <Compile Include="Domain.Biz.cs" />
     <Compile Include="Domain.cs" />
+    <Compile Include="DomainSubjectIndicator.Biz.cs" />
+    <Compile Include="DomainSubjectIndicator.cs" />
     <Compile Include="Indicator.Biz.cs" />
     <Compile Include="Indicator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlHelper.cs" />
     <Compile Include="Subject.Biz.cs" />
     <Compile Include="Subject.cs" />
     <Compile Include="Year.Biz.cs" />

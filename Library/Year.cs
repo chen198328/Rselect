@@ -1,10 +1,4 @@
-﻿/*
- * XCoder v6.1.5367.21625
- * 作者：Administrator/SDWM-20140605GJ
- * 时间：2014-11-23 12:40:48
- * 版权：版权所有 (C) 新生命开发团队 2002~2014
-*/
-using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml.Serialization;
@@ -14,20 +8,19 @@ using XCode.DataAccessLayer;
 
 namespace Rselect
 {
-    /// <summary>Year</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     [Serializable]
     [DataObject]
     [Description("")]
     [BindIndex("PK_Year", true, "id")]
     [BindRelation("id", true, "Indicator", "YearId")]
-    [BindTable("Year", Description = "", ConnName = "Reslect", DbType = DatabaseType.SqlServer)]
+    [BindTable("Year", Description = "", ConnName = "Rselect", DbType = DatabaseType.SqlServer)]
     public partial class Year : IYear
     {
         #region 属性
         private Int32 _id;
         /// <summary></summary>
-        [DisplayName("ID")]
+        [DisplayName("id")]
         [Description("")]
         [DataObjectField(true, true, false, 10)]
         [BindColumn(1, "id", "", null, "int", 10, 0, false)]
@@ -48,6 +41,18 @@ namespace Rselect
             get { return _Name; }
             set { if (OnPropertyChanging(__.Name, value)) { _Name = value; OnPropertyChanged(__.Name); } }
         }
+
+        private Int32 _number;
+        /// <summary></summary>
+        [DisplayName("number")]
+        [Description("")]
+        [DataObjectField(false, false, true, 10)]
+        [BindColumn(3, "number", "", null, "int", 10, 0, false)]
+        public virtual Int32 number
+        {
+            get { return _number; }
+            set { if (OnPropertyChanging(__.number, value)) { _number = value; OnPropertyChanged(__.number); } }
+        }
         #endregion
 
         #region 获取/设置 字段值
@@ -64,8 +69,9 @@ namespace Rselect
             {
                 switch (name)
                 {
-                    case __.id: return _id;
-                    case __.Name: return _Name;
+                    case __.id : return _id;
+                    case __.Name : return _Name;
+                    case __.number : return _number;
                     default: return base[name];
                 }
             }
@@ -73,8 +79,9 @@ namespace Rselect
             {
                 switch (name)
                 {
-                    case __.id: _id = Convert.ToInt32(value); break;
-                    case __.Name: _Name = Convert.ToString(value); break;
+                    case __.id : _id = Convert.ToInt32(value); break;
+                    case __.Name : _Name = Convert.ToString(value); break;
+                    case __.number : _number = Convert.ToInt32(value); break;
                     default: base[name] = value; break;
                 }
             }
@@ -82,7 +89,7 @@ namespace Rselect
         #endregion
 
         #region 字段名
-        /// <summary>取得Year字段信息的快捷方式</summary>
+        /// <summary>取得字段信息的快捷方式</summary>
         public partial class _
         {
             ///<summary></summary>
@@ -91,10 +98,13 @@ namespace Rselect
             ///<summary></summary>
             public static readonly Field Name = FindByName(__.Name);
 
+            ///<summary></summary>
+            public static readonly Field number = FindByName(__.number);
+
             static Field FindByName(String name) { return Meta.Table.FindByName(name); }
         }
 
-        /// <summary>取得Year字段名称的快捷方式</summary>
+        /// <summary>取得字段名称的快捷方式</summary>
         partial class __
         {
             ///<summary></summary>
@@ -103,12 +113,14 @@ namespace Rselect
             ///<summary></summary>
             public const String Name = "Name";
 
+            ///<summary></summary>
+            public const String number = "number";
+
         }
         #endregion
     }
 
-    /// <summary>Year接口</summary>
-    /// <remarks></remarks>
+    /// <summary>接口</summary>
     public partial interface IYear
     {
         #region 属性
@@ -117,6 +129,9 @@ namespace Rselect
 
         /// <summary></summary>
         String Name { get; set; }
+
+        /// <summary></summary>
+        Int32 number { get; set; }
         #endregion
 
         #region 获取/设置 字段值

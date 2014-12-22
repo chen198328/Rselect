@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
@@ -11,11 +11,10 @@ using XCode.Configuration;
 
 namespace Rselect
 {
-    /// <summary>Domain</summary>
-    /// <remarks></remarks>
+    /// <summary></summary>
     public partial class Domain : Entity<Domain>
     {
-        #region 对象操作
+        #region 对象操作﻿
 
         /// <summary>验证数据，通过抛出异常的方式提示验证失败。</summary>
         /// <param name="isNew"></param>
@@ -57,7 +56,7 @@ namespace Rselect
         /// <returns></returns>
         protected override int OnDelete()
         {
-            if (Subjects != null) Subjects.Delete();
+			if (Subjects != null) Subjects.Delete();
 
             return base.OnDelete();
         }
@@ -77,27 +76,27 @@ namespace Rselect
         //}
         #endregion
 
-        #region 扩展属性
+        #region 扩展属性﻿
         [NonSerialized]
-        private EntityList<Subject> _Subjects;
-        /// <summary>该Domain所拥有的Subject集合</summary>
-        [XmlIgnore]
-        public EntityList<Subject> Subjects
-        {
-            get
-            {
-                if (_Subjects == null && id > 0 && !Dirtys.ContainsKey("Subjects"))
+		private EntityList<Subject> _Subjects;
+		/// <summary>该Domain所拥有的Subject集合</summary>
+		[XmlIgnore]
+		public EntityList<Subject> Subjects
+		{
+			get
+			{
+				if (_Subjects == null && id > 0 && !Dirtys.ContainsKey("Subjects"))
                 {
-                    _Subjects = Subject.FindAllByDomainId(id);
-                    Dirtys["Subjects"] = true;
-                }
-                return _Subjects;
-            }
-            set { _Subjects = value; }
-        }
+					_Subjects = Subject.FindAllByDomainId(id);
+					Dirtys["Subjects"] = true;
+				}
+				return _Subjects;
+			}
+			set { _Subjects = value; }
+		}
         #endregion
 
-        #region 扩展查询
+        #region 扩展查询﻿
         /// <summary>根据id查找</summary>
         /// <param name="__id"></param>
         /// <returns></returns>
@@ -107,7 +106,7 @@ namespace Rselect
             if (Meta.Count >= 1000)
                 return Find(_.id, __id);
             else // 实体缓存
-                return Meta.Cache.Entities.Find(__.id, __id);
+                return Meta.Cache.Entities.Find(_.id, __id);
             // 单对象缓存
             //return Meta.SingleCache[__id];
         }
