@@ -85,7 +85,9 @@
                     <select name="year" class="selectpicker" id="yearlist" data-style="btn-primary" multiple="multiple">
                         <%for (int index = 0; index < YearList_.Count; index++)
                           {%>
-                        <option><%=YearList_[index] %></option>
+                        <option <%if (selectYears.Contains(YearList_[index]))
+                                  { %>
+                            selected="selected" <%} %>><%=YearList_[index] %></option>
                         <%} %>
                     </select>
                 </div>
@@ -102,7 +104,8 @@
                     <li class="list-group-item">
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" value="<%=IndicatorNameList_[index] %>" name="indicator" />
+                                <input type="checkbox" <%if (selectIndicatorName.Contains(IndicatorNameList_[index]))
+                                                         { %> checked="checked" <%} %> value="<%=IndicatorNameList_[index] %>" name="indicator" />
                                 <%=IndicatorNameList_[index] %>
                             </label>
                         </div>
@@ -590,12 +593,12 @@
                     option = {
                         tooltip: {         // Option config. Can be overwrited by series or data
                             trigger: 'axis',
-                            showDelay : 0,
-                            axisPointer:{
-                                type : 'cross',
+                            showDelay: 0,
+                            axisPointer: {
+                                type: 'cross',
                                 lineStyle: {
-                                    type : 'dashed',
-                                    width : 1
+                                    type: 'dashed',
+                                    width: 1
                                 }
                             },
                             hideDelay: 50,
@@ -621,16 +624,16 @@
                         xAxis: [
                             {
 
-                                name:'<%=IndicatorNameList_[0]%>',
-                                type:'value',
+                                name: '<%=IndicatorNameList_[0]%>',
+                                type: 'value',
                                 splitNumber: 2,
                                 scale: true,
                             }
                         ],
                         yAxis: [
                             {
-                                name:'<%=IndicatorNameList_[1]%>',
-                                type:'value',
+                                name: '<%=IndicatorNameList_[1]%>',
+                                type: 'value',
                                 splitNumber: 2,
                                 scale: true,
                             }

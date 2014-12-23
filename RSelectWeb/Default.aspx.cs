@@ -60,30 +60,30 @@ namespace RSelectWeb
         {
             string domain = string.Empty;
             if (radioChemistry.Checked) { domain = "化学"; }
-            if (radioChemistry.Checked) { domain = "工程技术"; }
-            if (radioChemistry.Checked) { domain = "地学天文"; }
-            if (radioChemistry.Checked)
+            if (radioEngineer.Checked) { domain = "工程技术"; }
+            if (radioDixuetianwen.Checked) { domain = "地学天文"; }
+            if (radioYixue.Checked)
             {
                 domain = "医学";
             }
 
-            if (radioChemistry.Checked)
+            if (radioNonglinkexue.Checked)
             {
                 domain = "农林科学";
             }
-            if (radioChemistry.Checked)
+            if (radioGuanlixue.Checked)
             {
                 domain = "管理科学";
             }
-            if (radioChemistry.Checked)
+            if (radioWuli.Checked)
             {
                 domain = "物理";
             }
-            if (radioChemistry.Checked)
+            if (radioHuanjing.Checked)
             {
                 domain = "环境科学与生态学";
             }
-            if (radioChemistry.Checked)
+            if (radioDixue.Checked)
             {
                 domain = "地学";
             }
@@ -206,8 +206,8 @@ namespace RSelectWeb
                 Session["subjects"] = subjects;
                 Session["indicators"] = indicators;
                 Session["domain"] = domain;
-                Page.Response.Redirect("Analysis_bar.aspx",true);
-               // Server.Transfer("Analysis_bar.aspx");
+                Page.Response.Redirect("Analysis.aspx", true);
+                // Server.Transfer("Analysis_bar.aspx");
             }
             else
             {

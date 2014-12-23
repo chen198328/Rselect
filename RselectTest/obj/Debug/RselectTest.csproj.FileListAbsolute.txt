@@ -4,3 +4,20 @@ d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\bi
 d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\bin\Debug\RselectTest.pdb
 d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\obj\Debug\RselectTest.dll
 d:\用户目录\Documents\Visual Studio 2013\Projects\RSelectDemo\RselectTest\obj\Debug\RselectTest.pdb
+F:\兴趣项目\Rselect\RselectTest\obj\Debug\RselectTest.csprojResolveAssemblyReference.cache
+F:\兴趣项目\Rselect\RselectTest\obj\Debug\RselectTest.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\RselectTest.dll.config
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\RselectTest.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\RselectTest.pdb
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\Library.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.CommonEntity.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.Core.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\XCode.dll
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\Library.pdb
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.CommonEntity.pdb
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.CommonEntity.xml
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.Core.pdb
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.Core.xml
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\XCode.pdb
+F:\兴趣项目\Rselect\RselectTest\bin\Debug\XCode.xml
+F:\兴趣项目\Rselect\RselectTest\obj\Debug\RselectTest.pdb

@@ -16,7 +16,8 @@ namespace RSelectWeb
         public List<string> IndicatorNameList_ = new List<string>();
         public int TopCount = 0;
 
-
+        public string selectYears = string.Empty;
+        public string selectIndicatorName = string.Empty;
 
         public string IndicatorName = string.Empty;
         /// <summary>
@@ -64,6 +65,8 @@ namespace RSelectWeb
             if (!IsPostBack)
             {
                 string domain = Session["domain"] as string;
+                selectYears = Session["years"] as string;
+                selectYears = Session["indicators"] as string;
                 if (!string.IsNullOrEmpty(domain))
                 {
                     IndicatorNameList = Entity.GetIndicatorNameListByDomainName(domain);
@@ -74,6 +77,7 @@ namespace RSelectWeb
                     ChangeDomain("化学");
                 }
                 else { ChangeDomain(domain); }
+
 
                 //SetLine(subjects, indicators[0], years);
 
