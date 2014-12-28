@@ -105,7 +105,8 @@
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" <%if (selectIndicatorName.Contains(IndicatorNameList_[index]))
-                                                         { %> checked="checked" <%} %> value="<%=IndicatorNameList_[index] %>" name="indicator" />
+                                                         { %>
+                                    checked="checked" <%} %> value="<%=IndicatorNameList_[index] %>" name="indicator" />
                                 <%=IndicatorNameList_[index] %>
                             </label>
                         </div>
@@ -120,152 +121,159 @@
                 <%} %>
             </div>
 
+            <asp:UpdatePanel runat="server" ID="updatepanel_content">
+                <ContentTemplate>
+                    <%if (PageType == 0)
+                      { %>
+                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <strong>化学综合</strong> 研究主题概况
+                            </div>
+                            <div class="panel-body table-responsive">
+                                <div class="tabbable">
+                                    <ul class="nav nav-pills">
+                                        <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
+                                        <li><a href="#ptab2" data-toggle="tab">列表</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="ptab1">
+                                            <div id="main" style="width: 500px; height: <%=height%>px"></div>
+                                        </div>
+                                        <div class="tab-pane" id="ptab2">
+                                            <div>
+                                                <table class="table table-bordered text-center table-striped">
+                                                    <thead class="text-center">
+                                                        <tr>
+                                                            <th class="text-center">序号</th>
+                                                            <th class="text-center">主题名称</th>
+                                                            <th class="text-center">评价指标</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <% for (int index = 0; index < IndicatorList.Count; index++)
+                                                           { %>
+                                                        <tr>
+                                                            <td><%=index %></td>
+                                                            <td><%=IndicatorList[index].Subject %></td>
+                                                            <td><%=IndicatorList[index].Value %></td>
+                                                        </tr>
+                                                        <% }%>
+                                                    </tbody>
+                                                </table>
 
-            <%if (PageType == 0)
-              { %>
-            <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <strong>化学综合</strong> 研究主题概况
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <div class="tabbable">
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
-                                <li><a href="#ptab2" data-toggle="tab">列表</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="ptab1">
-                                    <div id="main" style="width: 500px; height: <%=height%>px"></div>
-                                </div>
-                                <div class="tab-pane" id="ptab2">
-                                    <div>
-                                        <table class="table table-bordered text-center table-striped">
-                                            <thead class="text-center">
-                                                <tr>
-                                                    <th class="text-center">序号</th>
-                                                    <th class="text-center">主题名称</th>
-                                                    <th class="text-center">评价指标</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <% for (int index = 0; index < IndicatorList.Count; index++)
-                                                   { %>
-                                                <tr>
-                                                    <td><%=index %></td>
-                                                    <td><%=IndicatorList[index].Subject %></td>
-                                                    <td><%=IndicatorList[index].Value %></td>
-                                                </tr>
-                                                <% }%>
-                                            </tbody>
-                                        </table>
-
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
-            <%} %>
-            <%if (PageType == 2)
-              { %>
-            <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <strong>化学综合</strong> 散点图
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <div class="tabbable">
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
-                                <li><a href="#ptab2" data-toggle="tab">列表</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="ptab1">
-                                    <div id="main" style="width: 750px; height: 500px"></div>
-                                </div>
-                                <div class="tab-pane" id="ptab2">
-                                    <div>
-                                        <table class="table table-bordered text-center table-striped">
-                                            <thead class="text-center">
-                                                <tr>
-                                                    <th class="text-center">序号</th>
-                                                    <th class="text-center">主题名称</th>
-                                                    <th class="text-center">评价指标</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <% for (int index = 0; index < IndicatorList.Count; index++)
-                                                   { %>
-                                                <tr>
-                                                    <td><%=index %></td>
-                                                    <td><%=IndicatorList[index].Subject %></td>
-                                                    <td><%=IndicatorList[index].Value %></td>
-                                                </tr>
-                                                <% }%>
-                                            </tbody>
-                                        </table>
+                    <%} %>
+                    <%if (PageType == 2)
+                      { %>
+                    <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <strong>化学综合</strong> 散点图
+                            </div>
+                            <div class="panel-body table-responsive">
+                                <div class="tabbable">
+                                    <ul class="nav nav-pills">
+                                        <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
+                                        <li><a href="#ptab2" data-toggle="tab">列表</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="ptab1">
+                                            <div id="main" style="width: 750px; height: 500px"></div>
+                                        </div>
+                                        <div class="tab-pane" id="ptab2">
+                                            <div>
+                                                <table class="table table-bordered text-center table-striped">
+                                                    <thead class="text-center">
+                                                        <tr>
+                                                            <th class="text-center">序号</th>
+                                                            <th class="text-center">主题名称</th>
+                                                            <th class="text-center">评价指标</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <% for (int index = 0; index < IndicatorList.Count; index++)
+                                                           { %>
+                                                        <tr>
+                                                            <td><%=index %></td>
+                                                            <td><%=IndicatorList[index].Subject %></td>
+                                                            <td><%=IndicatorList[index].Value %></td>
+                                                        </tr>
+                                                        <% }%>
+                                                    </tbody>
+                                                </table>
 
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
-            <%} %>
-            <%if (PageType == 1)
-              { %>
-            <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <strong>化学综合</strong> 折线图
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <div class="tabbable">
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
-                                <li><a href="#ptab2" data-toggle="tab">列表</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="ptab1">
-                                    <div id="main" style="width: 750px; height: 500px"></div>
-                                </div>
-                                <div class="tab-pane" id="ptab2">
-                                    <div>
-                                        <table class="table table-bordered text-center table-striped">
-                                            <thead class="text-center">
-                                                <tr>
-                                                    <th class="text-center">序号</th>
-                                                    <th class="text-center">主题名称</th>
-                                                    <th class="text-center">评价指标</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <% for (int index = 0; index < IndicatorList.Count; index++)
-                                                   { %>
-                                                <tr>
-                                                    <td><%=index %></td>
-                                                    <td><%=IndicatorList[index].Subject %></td>
-                                                    <td><%=IndicatorList[index].Value %></td>
-                                                </tr>
-                                                <% }%>
-                                            </tbody>
-                                        </table>
+                    <%} %>
+                    <%if (PageType == 1)
+                      { %>
+                    <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <strong>化学综合</strong> 折线图
+                            </div>
+                            <div class="panel-body table-responsive">
+                                <div class="tabbable">
+                                    <ul class="nav nav-pills">
+                                        <li class="active"><a href="#ptab1" data-toggle="tab">视图</a></li>
+                                        <li><a href="#ptab2" data-toggle="tab">列表</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="ptab1">
+                                            <div id="main" style="width: 750px; height: 500px"></div>
+                                        </div>
+                                        <div class="tab-pane" id="ptab2">
+                                            <div>
+                                                <table class="table table-bordered text-center table-striped">
+                                                    <thead class="text-center">
+                                                        <tr>
+                                                            <th class="text-center">序号</th>
+                                                            <th class="text-center">主题名称</th>
+                                                            <th class="text-center">评价指标</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <% for (int index = 0; index < IndicatorList.Count; index++)
+                                                           { %>
+                                                        <tr>
+                                                            <td><%=index %></td>
+                                                            <td><%=IndicatorList[index].Subject %></td>
+                                                            <td><%=IndicatorList[index].Value %></td>
+                                                        </tr>
+                                                        <% }%>
+                                                    </tbody>
+                                                </table>
 
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
 
-            <%} %>
+                    <%} %>
+                </ContentTemplate>
+                <Triggers>
+                    <asp:AsyncPostBackTrigger ControlID="submit" />
+                </Triggers>
+            </asp:UpdatePanel>
+
 
             <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">
                 <div class="panel panel-default">

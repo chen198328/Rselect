@@ -58,7 +58,7 @@
                     <li class="list-group-item">
                         <div class="radio">
                             <label>
-                                <asp:RadioButton runat="server" ID="radioChemistry" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioChemistry_CheckedChanged" />
+                                <asp:RadioButton runat="server" ID="radioChemistry" GroupName="domain" Checked="true" AutoPostBack="true" OnCheckedChanged="radioChemistry_CheckedChanged" />
                                 化学
                             </label>
                         </div>
@@ -137,8 +137,8 @@
                     <li class="list-group-item">
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" value=" <%=SubjectList[index]%>" name="subject" />
-                                <%=SubjectList[index]%>
+                                <input type="checkbox" value=" <%=SubjectList[index].id%>" name="subject" />
+                                <%=SubjectList[index].Name%>
                             </label>
                         </div>
                     </li>
@@ -226,17 +226,15 @@
                                     <div class="input-group">
                                         <div class="checkbox">
                                             <label>
-                                                <span id="selectedcount">1</span>
                                                 <asp:UpdatePanel runat="server" ID="selectedcountupdatepanel">
                                                     <ContentTemplate>
-                                                        /<%=SubjectList.Count %>
+                                                        <span id="selectedcount">1</span> /<%=SubjectList.Count %>
                                                     </ContentTemplate>
                                                     <Triggers>
                                                         <asp:AsyncPostBackTrigger ControlID="SearchSubject" />
                                                         <asp:AsyncPostBackTrigger ControlID="Submit" />
                                                     </Triggers>
                                                 </asp:UpdatePanel>
-
                                             </label>
                                         </div>
                                     </div>
@@ -256,8 +254,8 @@
                                                 <li class="list-group-item">
                                                     <div class="checkbox">
                                                         <label>
-                                                            <input type="checkbox" value=" <%=SubjectList[index] %>" name="subject" />
-                                                            <%=SubjectList[index] %>
+                                                            <input type="checkbox" value="<%=SubjectList[index].id %>" name="subject" />
+                                                            <%=SubjectList[index].Name %>
                                                         </label>
                                                     </div>
                                                 </li>
@@ -271,8 +269,8 @@
                                                 <li class="list-group-item">
                                                     <div class="checkbox">
                                                         <label>
-                                                            <input type="checkbox" value=" <%=SubjectList[index] %>" name="subject" />
-                                                            <%=SubjectList[index] %>
+                                                            <input type="checkbox" value=" <%=SubjectList[index].id %>" name="subject" />
+                                                            <%=SubjectList[index].Name %>
                                                         </label>
                                                     </div>
                                                 </li>

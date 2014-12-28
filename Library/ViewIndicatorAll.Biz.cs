@@ -12,7 +12,7 @@ using XCode.Configuration;
 namespace Rselect
 {
     /// <summary></summary>
-    public partial class Indicator : Entity<Indicator>
+    public partial class ViewIndicatorAll : Entity<ViewIndicatorAll>
     {
         #region 对象操作﻿
 
@@ -29,7 +29,7 @@ namespace Rselect
 
             // 在新插入数据或者修改了指定字段时进行唯一性验证，CheckExist内部抛出参数异常
             //if (isNew || Dirtys[__.Name]) CheckExist(__.Name);
-
+            
         }
 
         ///// <summary>首次连接数据库时初始化数据，仅用于实体类重载，用户不应该调用该方法</summary>
@@ -43,16 +43,17 @@ namespace Rselect
         //    if (Meta.Count > 0) return;
 
         //    // 需要注意的是，如果该方法调用了其它实体类的首次数据库操作，目标实体类的数据初始化将会在同一个线程完成
-        //    if (XTrace.Debug) XTrace.WriteLine("开始初始化{0}[{1}]数据……", typeof(Indicator).Name, Meta.Table.DataTable.DisplayName);
+        //    if (XTrace.Debug) XTrace.WriteLine("开始初始化{0}[{1}]数据……", typeof(ViewIndicatorAll).Name, Meta.Table.DataTable.DisplayName);
 
-        //    var entity = new Indicator();
-        //    entity.Name = "abc";
+        //    var entity = new ViewIndicatorAll();
+        //    entity.Domain = "abc";
+        //    entity.Subject = "abc";
+        //    entity.IndicatorName = "abc";
         //    entity.Value = 0;
-        //    entity.YearId = 0;
-        //    entity.SubjectId = 0;
+        //    entity.Year = "abc";
         //    entity.Insert();
 
-        //    if (XTrace.Debug) XTrace.WriteLine("完成初始化{0}[{1}]数据！", typeof(Indicator).Name, Meta.Table.DataTable.DisplayName);
+        //    if (XTrace.Debug) XTrace.WriteLine("完成初始化{0}[{1}]数据！", typeof(ViewIndicatorAll).Name, Meta.Table.DataTable.DisplayName);
         //}
 
 
@@ -73,131 +74,46 @@ namespace Rselect
 
         #region 扩展属性﻿
         [NonSerialized]
-        private Subject _Subject;
-        /// <summary>该Indicator所对应的Subject</summary>
+        private Indicator _Indicator;
+        /// <summary>该ViewIndicatorAll所对应的Indicator</summary>
         [XmlIgnore]
-        public Subject Subject
+        public Indicator Indicator
         {
             get
             {
-                if (_Subject == null && SubjectId > 0 && !Dirtys.ContainsKey("Subject"))
+                if (_Indicator == null && !String.IsNullOrEmpty(IndicatorName) && !Dirtys.ContainsKey("Indicator"))
                 {
-                    _Subject = Subject.FindByid(SubjectId);
-                    Dirtys["Subject"] = true;
+                    _Indicator = Indicator.FindByName(IndicatorName);
+                    Dirtys["Indicator"] = true;
                 }
-                return _Subject;
+                return _Indicator;
             }
-            set { _Subject = value; }
-        }
-
-        /// <summary>该Indicator所对应的SubjectName</summary>
-        [XmlIgnore]
-        public String SubjectName { get { return Subject != null ? Subject.Name : null; } }
-
-        [NonSerialized]
-        private Year _Year;
-        /// <summary>该Indicator所对应的Year</summary>
-        [XmlIgnore]
-        public Year Year
-        {
-            get
-            {
-                if (_Year == null && YearId > 0 && !Dirtys.ContainsKey("Year"))
-                {
-                    _Year = Year.FindByid(YearId);
-                    Dirtys["Year"] = true;
-                }
-                return _Year;
-            }
-            set { _Year = value; }
-        }
-
-        /// <summary>该Indicator所对应的YearName</summary>
-        [XmlIgnore]
-        public String YearName { get { return Year != null ? Year.Name : null; } }
-
-        [NonSerialized]
-        private ViewIndicatorAll _ViewIndicatorAll;
-        /// <summary>该Indicator所对应的ViewIndicatorAll</summary>
-        [XmlIgnore]
-        public ViewIndicatorAll ViewIndicatorAll
-        {
-            get
-            {
-                if (_ViewIndicatorAll == null && !String.IsNullOrEmpty(Name) && !Dirtys.ContainsKey("ViewIndicatorAll"))
-                {
-                
-                    _ViewIndicatorAll = ViewIndicatorAll.FindByIndicatorName(Name);
-                    Dirtys["ViewIndicatorAll"] = true;
-                }
-                return _ViewIndicatorAll;
-            }
-            set { _ViewIndicatorAll = value; }
+            set { _Indicator = value; }
         }
         #endregion
 
         #region 扩展查询﻿
-        /// <summary>根据id查找</summary>
-        /// <param name="__id"></param>
+        /// <summary>根据IndicatorName查找</summary>
+        /// <param name="indicatorname"></param>
         /// <returns></returns>
         [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public static Indicator FindByid(Int32 __id)
+        public static EntityList<ViewIndicatorAll> FindAllByIndicatorName(String indicatorname)
         {
             if (Meta.Count >= 1000)
-                return Find(_.id, __id);
+                return FindAll(_.IndicatorName, indicatorname);
             else // 实体缓存
-                return Meta.Cache.Entities.Find(_.id, __id);
-            // 单对象缓存
-            //return Meta.SingleCache[__id];
+                return Meta.Cache.Entities.FindAll(_.IndicatorName, indicatorname);
         }
-        /// <summary>根据id查找</summary>
-        /// <param name="__id"></param>
+        /// <summary>根据IndicatorName查找</summary>
+        /// <param name="indicatorname"></param>
         /// <returns></returns>
         [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public static Indicator FindByName(string __name)
+        public static ViewIndicatorAll FindByIndicatorName(String indicatorname)
         {
             if (Meta.Count >= 1000)
-                return Find(_.Name, __name);
+                return Find(_.IndicatorName, indicatorname);
             else // 实体缓存
-                return Meta.Cache.Entities.Find(_.Name, __name);
-            // 单对象缓存
-            //return Meta.SingleCache[__id];
-        }
-
-        /// <summary>根据SubjectId查找</summary>
-        /// <param name="subjectid"></param>
-        /// <returns></returns>
-        [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public static EntityList<Indicator> FindAllBySubjectId(Int32 subjectid)
-        {
-            if (Meta.Count >= 1000)
-                return FindAll(_.SubjectId, subjectid);
-            else // 实体缓存
-                return Meta.Cache.Entities.FindAll(_.SubjectId, subjectid);
-        }
-
-        /// <summary>根据YearId查找</summary>
-        /// <param name="yearid"></param>
-        /// <returns></returns>
-        [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public static EntityList<Indicator> FindAllByYearId(Int32 yearid)
-        {
-            if (Meta.Count >= 1000)
-                return FindAll(_.YearId, yearid);
-            else // 实体缓存
-                return Meta.Cache.Entities.FindAll(_.YearId, yearid);
-        }
-
-        /// <summary>根据Name查找</summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public static EntityList<Indicator> FindAllByName(String name)
-        {
-            if (Meta.Count >= 1000)
-                return FindAll(_.Name, name);
-            else // 实体缓存
-                return Meta.Cache.Entities.FindAll(_.Name, name);
+                return Meta.Cache.Entities.Find(_.IndicatorName, indicatorname);
         }
         #endregion
 
@@ -213,7 +129,7 @@ namespace Rselect
         ///// <param name="maximumRows">最大返回行数，0表示所有行</param>
         ///// <returns>实体集</returns>
         //[DataObjectMethod(DataObjectMethodType.Select, true)]
-        //public static EntityList<Indicator> Search(String key, String orderClause, Int32 startRowIndex, Int32 maximumRows)
+        //public static EntityList<ViewIndicatorAll> Search(String key, String orderClause, Int32 startRowIndex, Int32 maximumRows)
         //{
         //    return FindAll(SearchWhere(key), orderClause, null, startRowIndex, maximumRows);
         //}

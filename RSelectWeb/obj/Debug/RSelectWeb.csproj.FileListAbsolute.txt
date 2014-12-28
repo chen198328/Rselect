@@ -12,3 +12,14 @@ F:\兴趣项目\Rselect\RSelectWeb\bin\Microsoft.Web.Infrastructure.dll
 F:\兴趣项目\Rselect\RSelectWeb\obj\Debug\RSelectWeb.csprojResolveAssemblyReference.cache
 F:\兴趣项目\Rselect\RSelectWeb\obj\Debug\RSelectWeb.dll
 F:\兴趣项目\Rselect\RSelectWeb\obj\Debug\RSelectWeb.pdb
+F:\兴趣项目\Rselect\RSelectWeb\bin\Library.dll
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.CommonEntity.dll
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.Core.dll
+F:\兴趣项目\Rselect\RSelectWeb\bin\XCode.dll
+F:\兴趣项目\Rselect\RSelectWeb\bin\Library.pdb
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.CommonEntity.pdb
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.CommonEntity.xml
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.Core.pdb
+F:\兴趣项目\Rselect\RSelectWeb\bin\NewLife.Core.xml
+F:\兴趣项目\Rselect\RSelectWeb\bin\XCode.pdb
+F:\兴趣项目\Rselect\RSelectWeb\bin\XCode.xml

@@ -12,10 +12,13 @@ namespace Rselect
     [Serializable]
     [DataObject]
     [Description("")]
+    [BindIndex("PK_Indicator", true, "id")]
     [BindIndex("IX_Indicator_SubjectId", false, "SubjectId")]
     [BindIndex("IX_Indicator_YearId", false, "YearId")]
+    [BindIndex("IX_Indicator_Name", false, "Name")]
     [BindRelation("SubjectId", false, "Subject", "id")]
     [BindRelation("YearId", false, "Year", "id")]
+    [BindRelation("Name", false, "ViewIndicatorAll", "IndicatorName")]
     [BindTable("Indicator", Description = "", ConnName = "Rselect", DbType = DatabaseType.SqlServer)]
     public partial class Indicator : IIndicator
     {

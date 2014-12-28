@@ -7,11 +7,14 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DotNet.Utilities;
 using System.Data;
+using Rselect;
+using XCode;
 namespace RSelectWeb
 {
     public partial class Default : System.Web.UI.Page
     {
-        public List<string> SubjectList = new List<string>();
+
+        public EntityList<Subject> SubjectList = new EntityList<Subject>();
         public List<string> YearList = new List<string>();
         public List<string> IndicatorList = new List<string>();
         public int TopCount = 0;
@@ -22,6 +25,7 @@ namespace RSelectWeb
         private string domain = string.Empty;
         protected void Page_Load(object sender, EventArgs e)
         {
+
 
             if (IsPostBack)
             {
@@ -34,6 +38,10 @@ namespace RSelectWeb
                     domain = GetSelectedDomain();
                     isSubmit = true;
                 }
+            }
+            else
+            {
+                SetChecked("化学");
             }
         }
 
@@ -52,8 +60,9 @@ namespace RSelectWeb
 
         protected void SearchSubject_Click(object sender, EventArgs e)
         {
-            string subjectlikename = "%" + SearchSubjectText.Text.Trim() + "%";
-            SubjectList = Entity.GetSubjectListLikeName(subjectlikename);
+            string whereclause = "%" + SearchSubjectText.Text.Trim() + "%";
+            SubjectList = Subject.FindAll(whereclause, "Name", "*", 0, 0);
+
         }
         #region 单选
         string GetSelectedDomain()
@@ -89,15 +98,24 @@ namespace RSelectWeb
             }
             return domain;
         }
+        private void SetChecked(string domain)
+        {
+            Domain _domain = Domain.Find("Name", domain);
+            if (_domain != null)
+            {
+                SubjectList = Subject.FindAll("DomainId", _domain.id);
+                YearList = Entity.GetYearsListByDomainName(domain);
+                IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
+                UpdateTopCount();
+            }
+        }
         protected void radioChemistry_CheckedChanged(object sender, EventArgs e)
         {
             if (radioChemistry.Checked)
             {
                 domain = "化学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
-                YearList = Entity.GetYearsListByDomainName(domain);
-                IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
-                UpdateTopCount();
+                SetChecked(domain);
+
             }
         }
         protected void radioEngineer_CheckedChanged(object sender, EventArgs e)
@@ -105,7 +123,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "工程技术";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -117,7 +135,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "地学天文";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -129,7 +147,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "医学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -141,7 +159,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "农林科学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -153,7 +171,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "管理科学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -165,7 +183,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "物理";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -177,7 +195,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "环境科学与生态学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName(domain);
                 UpdateTopCount();
@@ -189,7 +207,7 @@ namespace RSelectWeb
             if (radioChemistry.Checked)
             {
                 domain = "地学";
-                SubjectList = Entity.GetSubjectListByDomainName(domain);
+                SubjectList = Subject.FindAll("Name", domain);
                 YearList = Entity.GetYearsListByDomainName(domain);
                 IndicatorList = Entity.GetIndicatorNameListByDomainName("domain");
                 UpdateTopCount();
