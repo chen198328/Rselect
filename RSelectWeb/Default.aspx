@@ -186,6 +186,14 @@
         </div>
         <%if (SubjectList.Count > 0)
           { %>
+        <asp:UpdatePanel runat="server">
+            <ContentTemplate>
+                <asp:Literal runat="server" ID="alter"></asp:Literal>
+            </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="Submit" />
+            </Triggers>
+        </asp:UpdatePanel>
         <div class="container">
             <div class=" col-lg-offset-10 col-lg-2">
                 <div class="text-right">

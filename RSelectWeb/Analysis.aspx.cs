@@ -5,19 +5,22 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Text;
-
+using XCode;
+using Rselect;
 namespace RSelectWeb
 {
     public partial class Analysis_bar : System.Web.UI.Page
     {
         //初始化页面
-        public List<string> SubjectList_ = new List<string>();
+        public EntityList<Subject> SubjectList_ = new EntityList<Subject>();
+        //public List<string> SubjectList_ = new List<string>();
         public List<string> YearList_ = new List<string>();
         public List<string> IndicatorNameList_ = new List<string>();
         public int TopCount = 0;
 
         public string selectYears = string.Empty;
         public string selectIndicatorName = string.Empty;
+        public List<string> selectSubjectIds = new List<string>();
 
         public string IndicatorName = string.Empty;
         /// <summary>
@@ -66,7 +69,16 @@ namespace RSelectWeb
             {
                 string domain = Session["domain"] as string;
                 selectYears = Session["years"] as string;
-                selectYears = Session["indicators"] as string;
+                selectIndicatorName = Session["indicators"] as string;
+                string subjects = Session["subjects"] as string;
+                if (!string.IsNullOrEmpty(subjects))
+                {
+                    selectSubjectIds = subjects.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+                    for (int i = 0; i < selectSubjectIds.Count; i++)
+                    {
+                        selectSubjectIds[i] = selectSubjectIds[i].Trim();
+                    }
+                }
                 if (!string.IsNullOrEmpty(domain))
                 {
                     IndicatorNameList = Entity.GetIndicatorNameListByDomainName(domain);
@@ -238,7 +250,12 @@ namespace RSelectWeb
         }
         private void ChangeDomain(string domain)
         {
-            SubjectList_ = Entity.GetSubjectListByDomainName(domain);
+            Domain _domain = Domain.Find("name", domain);
+            if (_domain.id != 0)
+            {
+                SubjectList_ = Subject.FindAllByDomainId(_domain.id);
+            }
+
             YearList_ = Entity.GetYearsListByDomainName(domain);
             IndicatorNameList_ = Entity.GetIndicatorNameListByDomainName(domain);
             UpdateTopCount();
@@ -256,8 +273,10 @@ namespace RSelectWeb
         }
         protected void SearchSubject_Click(object sender, EventArgs e)
         {
-            string subjectlikename = "%" + SearchSubjectText.Text.Trim() + "%";
-            SubjectList_ = Entity.GetSubjectListLikeName(subjectlikename);
+            string subjectlikename = "[Name] like %" + SearchSubjectText.Text.Trim() + "%";
+
+            SubjectList_ = Subject.Search(subjectlikename, null, 0, 0);
+            //SubjectList_ = Entity.GetSubjectListLikeName(subjectlikename);
         }
 
         protected void domainlist_SelectedIndexChanged(object sender, EventArgs e)

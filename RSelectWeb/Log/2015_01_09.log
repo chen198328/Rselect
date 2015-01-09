@@ -1,0 +1,378 @@
+﻿#Software: iisexpress
+#ProcessID: 6396
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652833028469645
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:21:51.929 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:21:52.076 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:21:52.077 6 W - 开始初始化实体类Domain
+21:21:52.080 6 W - 完成初始化实体类Domain
+21:22:04.974 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+21:22:05.034 6 W - GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+21:22:14.457 6 W - 导致错误的连接字符串：server=localhost;database=master;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+
+#Software: iisexpress
+#ProcessID: 5916
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652835027383977
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:25:25.193 8 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:25:25.255 8 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:25:25.256 8 W - 开始初始化实体类Domain
+21:25:25.286 8 W - 完成初始化实体类Domain
+21:25:27.587 8 W - 开始初始化实体类Subject
+21:25:27.587 8 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6160
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652839458497422
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:32:29.104 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:32:29.121 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:32:29.122 6 W - 开始初始化实体类Domain
+21:32:29.124 6 W - 完成初始化实体类Domain
+21:32:29.923 6 W - 开始初始化实体类Subject
+21:32:29.923 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6700
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652841954950211
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:36:38.538 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:36:38.564 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:36:38.565 6 W - 开始初始化实体类Domain
+21:36:38.567 6 W - 完成初始化实体类Domain
+21:36:39.671 6 W - 开始初始化实体类Subject
+21:36:39.671 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6448
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652847063312392
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:45:10.803 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:45:10.833 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:45:10.834 6 W - 开始初始化实体类Domain
+21:45:10.838 6 W - 完成初始化实体类Domain
+21:45:11.856 6 W - 开始初始化实体类Subject
+21:45:11.856 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 7568
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652852115441358
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:53:33.131 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:53:33.147 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:53:33.148 6 W - 开始初始化实体类Domain
+21:53:33.150 6 W - 完成初始化实体类Domain
+21:53:33.783 6 W - 开始初始化实体类Subject
+21:53:33.783 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6688
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652855117453063
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:58:33.524 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+21:58:33.540 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+21:58:33.541 6 W - 开始初始化实体类Domain
+21:58:33.544 6 W - 完成初始化实体类Domain
+21:58:34.235 6 W - 开始初始化实体类Subject
+21:58:34.236 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 5524
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652857256875431
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:02:07.250 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:02:07.267 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:02:07.267 6 W - 开始初始化实体类Domain
+22:02:07.270 6 W - 完成初始化实体类Domain
+22:02:09.815 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+22:02:09.879 6 W - GetSchema(MetaDataCollections)异常重试！连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=6；handshake=8；[Login] initialization=0；authentication=0；[Post-Login] complete=1094；,连接字符串 server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+22:02:10.128 6 W - 开始初始化实体类Subject
+22:02:10.129 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6948
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652857473757836
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:03:45.955 7 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:03:45.990 7 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:03:45.991 7 W - 开始初始化实体类Domain
+22:03:45.994 7 W - 完成初始化实体类Domain
+22:03:46.850 7 W - 开始初始化实体类Subject
+22:03:46.850 7 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 7852
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652859274550835
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:05:36.006 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:05:36.021 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:05:36.022 6 W - 开始初始化实体类Domain
+22:05:36.025 6 W - 完成初始化实体类Domain
+22:05:39.065 6 W - 开始初始化实体类Subject
+22:05:39.065 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 7076
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652861631395639
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:09:24.844 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:09:24.861 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:09:24.862 6 W - 开始初始化实体类Domain
+22:09:24.865 6 W - 完成初始化实体类Domain
+22:09:25.568 6 W - 开始初始化实体类Subject
+22:09:25.569 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 7308
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652864675349743
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:14:29.170 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:14:29.186 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:14:29.187 6 W - 开始初始化实体类Domain
+22:14:29.190 6 W - 完成初始化实体类Domain
+22:14:29.866 6 W - 开始初始化实体类Subject
+22:14:29.866 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 3016
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652865897279634
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:16:56.269 11 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:16:56.298 11 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:16:56.299 11 W - 开始初始化实体类Domain
+22:16:56.304 11 W - 完成初始化实体类Domain
+22:16:57.142 11 W - 开始初始化实体类Subject
+22:16:57.143 11 W - 完成初始化实体类Subject
+C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:16:56.973 10 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:16:56.994 10 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:16:56.995 10 W - 开始初始化实体类Domain
+22:16:56.999 10 W - 完成初始化实体类Domain
+22:16:58.470 10 W - 开始初始化实体类Subject
+22:16:58.470 10 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 7616
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652876038369671
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:33:25.693 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:33:25.709 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:33:25.710 6 W - 开始初始化实体类Domain
+22:33:25.713 6 W - 完成初始化实体类Domain
+22:33:26.365 6 W - 开始初始化实体类Subject
+22:33:26.365 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 4368
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652876471644453
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:34:08.908 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:34:08.925 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:34:08.926 6 W - 开始初始化实体类Domain
+22:34:08.929 6 W - 完成初始化实体类Domain
+22:34:09.663 6 W - 开始初始化实体类Subject
+22:34:09.663 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 6236
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652877561946815
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:35:58.506 7 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:35:58.522 7 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:35:58.523 7 W - 开始初始化实体类Domain
+22:35:58.526 7 W - 完成初始化实体类Domain
+22:35:59.227 7 W - 开始初始化实体类Subject
+22:35:59.227 7 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 2204
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652887851795360
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:53:08.603 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:53:08.641 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:53:08.642 6 W - 开始初始化实体类Domain
+22:53:08.645 6 W - 完成初始化实体类Domain
+22:53:09.767 6 W - 开始初始化实体类Subject
+22:53:09.768 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 2252
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652889228454101
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:55:27.184 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:55:27.230 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:55:27.231 6 W - 开始初始化实体类Domain
+22:55:27.234 6 W - 完成初始化实体类Domain
+22:55:28.172 6 W - 开始初始化实体类Subject
+22:55:28.173 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 4892
+#AppDomain: /LM/W3SVC/29/ROOT-1-130652890048160985
+#FileName: C:\Program Files\IIS Express\iisexpress.exe
+#BaseDirectory: F:\兴趣项目\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files\IIS Express
+#CommandLine: /config:"C:\Users\lenovo\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2015-01-09
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:56:50.605 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:56:50.622 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:56:50.622 6 W - 开始初始化实体类Domain
+22:56:50.626 6 W - 完成初始化实体类Domain
+22:56:51.351 6 W - 开始初始化实体类Subject
+22:56:51.351 6 W - 完成初始化实体类Subject

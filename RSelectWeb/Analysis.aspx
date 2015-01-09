@@ -79,7 +79,7 @@
                     </asp:DropDownList>
 
                     <label class="control-label marginleft">主题选择 </label>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#largeModal"><span id="TitleCount">10/50</span></a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#largeModal"><span id="TitleCount"><%=selectSubjectIds.Count %>/<%=SubjectList_.Count %></span></a>
                     <label class="control-label marginleft">时间窗 </label>
 
                     <select name="year" class="selectpicker" id="yearlist" data-style="btn-primary" multiple="multiple">
@@ -383,7 +383,7 @@
                                     <div class="input-group">
                                         <div class="checkbox">
                                             <label>
-                                                <span id="selectedcount">1</span>
+                                                <span id="selectedcount"><%=selectSubjectIds.Count %></span>
                                                 <asp:UpdatePanel runat="server" ID="selectedcountupdatepanel">
                                                     <ContentTemplate>
                                                         /<%=SubjectList_.Count %>
@@ -412,8 +412,10 @@
                                                 <li class="list-group-item">
                                                     <div class="checkbox">
                                                         <label>
-                                                            <input type="checkbox" value=" <%=SubjectList_[index] %>" name="subject" />
-                                                            <%=SubjectList_[index] %>
+                                                            <input type="checkbox" value=" <%=SubjectList_[index].id %>" name="subject" <%if (selectSubjectIds.Contains(SubjectList_[index].id.ToString()))
+                                                                                                                                          {%>checked="checked"
+                                                                <%} %> />
+                                                            <%=SubjectList_[index].Name %>
                                                         </label>
                                                     </div>
                                                 </li>
@@ -427,8 +429,8 @@
                                                 <li class="list-group-item">
                                                     <div class="checkbox">
                                                         <label>
-                                                            <input type="checkbox" value=" <%=SubjectList_[index] %>" name="subject" />
-                                                            <%=SubjectList_[index] %>
+                                                            <input type="checkbox" value=" <%=SubjectList_[index].id %>" name="subject" <% =selectSubjectIds.Contains(SubjectList_[index].id.ToString())?"checked=\"checked\"":"" %> />
+                                                            <%=SubjectList_[index].Name %>
                                                         </label>
                                                     </div>
                                                 </li>

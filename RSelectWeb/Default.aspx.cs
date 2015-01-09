@@ -36,7 +36,15 @@ namespace RSelectWeb
                     subjects = Request.Form["subject"];
                     indicators = Request.Form["indicator"];
                     domain = GetSelectedDomain();
-                    isSubmit = true;
+
+                    if (years.Contains(",") && subjects.Contains(",") && indicators.Contains(","))
+                    {
+                        isSubmit = false;
+                    }
+                    else
+                    {
+                        isSubmit = true;
+                    }
                 }
             }
             else
@@ -229,8 +237,19 @@ namespace RSelectWeb
             }
             else
             {
-
+                string message = "主题、时间和分析维度不能全部多选，也不能全部为空";
+                //alter.Text = string.Format("<script>alert('{0}');</script>", message);
+                AlertMessage(message);
             }
+        }
+        private void AlertMessage(string message)
+        {
+            string scriptstrs = string.Format("<script>alert('{0}');</script>", message);
+
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alert", scriptstrs, false);
+            // Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "alter", scriptstrs);
+            //Page.ClientScript.RegisterStartupScript(this.GetType(), "alert", scriptstrs);
+
         }
     }
 }
