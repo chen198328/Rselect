@@ -1,0 +1,56 @@
+﻿#Software: iisexpress
+#ProcessID: 5804
+#AppDomain: /LM/W3SVC/2/ROOT-1-130711641127795245
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-18
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:55:16.499 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:55:16.584 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:55:16.585 6 W - 开始初始化实体类Domain
+22:55:16.589 6 W - 完成初始化实体类Domain
+22:55:17.840 6 W - 开始初始化实体类Subject
+22:55:17.840 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 3568
+#AppDomain: /LM/W3SVC/2/ROOT-1-130711647616628380
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-18
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:06:03.759 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+23:06:03.782 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+23:06:03.783 6 W - 开始初始化实体类Domain
+23:06:03.787 6 W - 完成初始化实体类Domain
+23:06:04.890 6 W - 开始初始化实体类Subject
+23:06:04.890 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 9648
+#AppDomain: /LM/W3SVC/2/ROOT-1-130711649494921663
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-18
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:09:11.848 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+23:09:11.868 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+23:09:11.869 6 W - 开始初始化实体类Domain
+23:09:11.873 6 W - 完成初始化实体类Domain
+23:09:13.103 6 W - 开始初始化实体类Subject
+23:09:13.103 6 W - 完成初始化实体类Subject

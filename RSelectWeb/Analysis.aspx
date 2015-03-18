@@ -125,7 +125,7 @@
                 <ContentTemplate>
                     <%if (PageType == 0)
                       { %>
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                    <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <strong>化学综合</strong> 研究主题概况
@@ -173,7 +173,7 @@
                     <%} %>
                     <%if (PageType == 2)
                       { %>
-                    <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                    <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <strong>化学综合</strong> 散点图
@@ -221,7 +221,7 @@
                     <%} %>
                     <%if (PageType == 1)
                       { %>
-                    <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                    <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <strong>化学综合</strong> 折线图
@@ -274,82 +274,86 @@
                 </Triggers>
             </asp:UpdatePanel>
 
+        </div>
 
-            <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        核心论文
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <table class="table table-bordered table-striped ">
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                        </table>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#paperModal">更多</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"></div>
+
+                <div class="col-lg-5 col-md-5 col-xs-5 col-sm-5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            核心论文
+                        </div>
+                        <div class="panel-body table-responsive">
+                            <table class="table table-bordered table-striped ">
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                            </table>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#paperModal">更多</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        研究力量
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <table class="table table-bordered table-striped ">
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                            <tr>
-                                <td>材料合成过程...</td>
-                            </tr>
-                        </table>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#powerModal">更多</a>
+                <div class="col-lg-5 col-md-5 col-xs-5 col-sm-5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            研究力量
+                        </div>
+                        <div class="panel-body table-responsive">
+                            <table class="table table-bordered table-striped ">
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                                <tr>
+                                    <td>材料合成过程...</td>
+                                </tr>
+                            </table>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#powerModal">更多</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
         <div style="display: none;" class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
             <div class="modal-dialog modal-lg">
