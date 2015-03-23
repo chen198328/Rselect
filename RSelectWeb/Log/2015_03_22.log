@@ -1,0 +1,672 @@
+﻿#Software: iisexpress
+#ProcessID: 8604
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714643846890990
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:19:48.660 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+10:19:48.685 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+10:19:48.686 6 W - 开始初始化实体类Domain
+10:19:48.689 6 W - 完成初始化实体类Domain
+10:19:50.193 6 W - 开始初始化实体类Subject
+10:19:50.193 6 W - 完成初始化实体类Subject
+
+#Software: iisexpress
+#ProcessID: 9632
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714650926578932
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:31:34.774 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+10:31:34.796 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+10:31:34.797 6 W - 开始初始化实体类Domain
+10:31:34.802 6 W - 完成初始化实体类Domain
+10:31:35.736 6 W - 开始初始化实体类Subject
+10:31:35.737 6 W - 完成初始化实体类Subject
+10:31:57.878 6 W - 开始初始化实体类Year
+10:31:57.878 6 W - 完成初始化实体类Year
+10:31:57.904 6 W - 开始初始化实体类Indicator
+10:31:57.904 6 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 8468
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714657367316032
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:42:18.816 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+10:42:18.842 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+10:42:18.843 6 W - 开始初始化实体类Domain
+10:42:18.846 6 W - 完成初始化实体类Domain
+10:42:19.765 6 W - 开始初始化实体类Subject
+10:42:19.765 6 W - 完成初始化实体类Subject
+10:42:31.909 8 W - 开始初始化实体类Year
+10:42:31.909 8 W - 完成初始化实体类Year
+10:42:31.936 8 W - 开始初始化实体类Indicator
+10:42:31.936 8 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 2508
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714772924377741
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:54:54.599 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+13:54:54.630 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+13:54:54.631 6 W - 开始初始化实体类Domain
+13:54:54.634 6 W - 完成初始化实体类Domain
+13:54:55.623 6 W - 开始初始化实体类Subject
+13:54:55.623 6 W - 完成初始化实体类Subject
+13:55:22.032 6 W - 开始初始化实体类Year
+13:55:22.033 6 W - 完成初始化实体类Year
+13:55:22.054 6 W - 开始初始化实体类Indicator
+13:55:22.055 6 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 2972
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714775755953058
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:59:49.349 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+13:59:49.370 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+13:59:49.370 6 W - 开始初始化实体类Domain
+13:59:49.375 6 W - 完成初始化实体类Domain
+13:59:51.434 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+13:59:51.475 6 W - GetSchema(MetaDataCollections)异常重试！连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=7；handshake=22；[Login] initialization=0；authentication=0；[Post-Login] complete=1016；,连接字符串 server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+13:59:51.824 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+13:59:51.864 6 W - GetSchema(ReservedWords)异常重试！无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。,连接字符串 server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+13:59:51.986 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+
+#Software: iisexpress
+#ProcessID: 11408
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714780200248806
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:07:02.578 7 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:07:02.598 7 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:07:02.598 7 W - 开始初始化实体类Domain
+14:07:02.602 7 W - 完成初始化实体类Domain
+14:07:03.423 7 W - 开始初始化实体类Subject
+14:07:03.423 7 W - 完成初始化实体类Subject
+14:07:14.590 7 W - 开始初始化实体类Year
+14:07:14.591 7 W - 完成初始化实体类Year
+
+#Software: iisexpress
+#ProcessID: 5368
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714781101391050
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:09:05.663 8 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:09:05.685 8 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:09:05.685 8 W - 开始初始化实体类Domain
+14:09:05.691 8 W - 完成初始化实体类Domain
+14:09:06.554 8 W - 开始初始化实体类Subject
+14:09:06.554 8 W - 完成初始化实体类Subject
+14:09:27.932 6 W - 开始初始化实体类Year
+14:09:27.933 6 W - 完成初始化实体类Year
+14:09:27.977 6 W - 开始初始化实体类Indicator
+14:09:27.978 6 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 9032
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714782624273007
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:11:18.719 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:11:18.740 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:11:18.741 6 W - 开始初始化实体类Domain
+14:11:18.745 6 W - 完成初始化实体类Domain
+14:11:19.571 6 W - 开始初始化实体类Subject
+14:11:19.572 6 W - 完成初始化实体类Subject
+14:11:43.163 6 W - 开始初始化实体类Year
+14:11:43.164 6 W - 完成初始化实体类Year
+14:11:43.207 6 W - 开始初始化实体类Indicator
+14:11:43.207 6 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 11008
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714783335770468
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:13:33.772 9 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:13:33.794 9 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:13:33.795 9 W - 开始初始化实体类Domain
+14:13:33.798 9 W - 完成初始化实体类Domain
+14:13:34.656 9 W - 开始初始化实体类Subject
+14:13:34.656 9 W - 完成初始化实体类Subject
+14:13:48.903 9 W - 开始初始化实体类Year
+14:13:48.903 9 W - 完成初始化实体类Year
+14:13:48.959 9 W - 开始初始化实体类Indicator
+14:13:48.959 9 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 2080
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714785323587577
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:15:34.538 8 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:15:34.560 8 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:15:34.561 8 W - 开始初始化实体类Domain
+14:15:34.564 8 W - 完成初始化实体类Domain
+14:15:35.425 8 W - 开始初始化实体类Subject
+14:15:35.425 8 W - 完成初始化实体类Subject
+14:15:49.595 10 W - 开始初始化实体类Year
+14:15:49.596 10 W - 完成初始化实体类Year
+14:15:49.641 10 W - 开始初始化实体类Indicator
+14:15:49.641 10 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 8304
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714785900671355
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:16:32.353 8 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:16:32.376 8 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:16:32.377 8 W - 开始初始化实体类Domain
+14:16:32.380 8 W - 完成初始化实体类Domain
+14:16:34.491 8 W - 导致错误的连接字符串：server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+14:16:34.531 8 W - GetSchema(MetaDataCollections)异常重试！连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=7；handshake=24；[Login] initialization=0；authentication=0；[Post-Login] complete=1017；,连接字符串 server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+14:16:34.875 8 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+14:16:34.913 8 W - GetSchema(ReservedWords)异常重试！无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。,连接字符串 server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+14:16:35.040 8 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+
+#Software: iisexpress
+#ProcessID: 8748
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714787045900842
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:18:27.139 11 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:18:27.161 11 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:18:27.162 11 W - 开始初始化实体类Domain
+14:18:27.166 11 W - 完成初始化实体类Domain
+14:18:27.974 11 W - 开始初始化实体类Subject
+14:18:27.975 11 W - 完成初始化实体类Subject
+14:18:39.845 9 W - 开始初始化实体类Year
+14:18:39.845 9 W - 完成初始化实体类Year
+14:18:39.894 9 W - 开始初始化实体类Indicator
+14:18:39.895 9 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 2396
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714787739133434
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:19:36.544 10 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:19:36.570 10 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:19:36.574 10 W - 开始初始化实体类Domain
+14:19:36.579 10 W - 完成初始化实体类Domain
+14:19:37.469 10 W - 开始初始化实体类Subject
+14:19:37.469 10 W - 完成初始化实体类Subject
+14:19:46.965 12 W - 开始初始化实体类Year
+14:19:46.965 12 W - 完成初始化实体类Year
+14:19:46.986 12 W - 开始初始化实体类Indicator
+14:19:46.986 12 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 11160
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714790919000124
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:25:47.935 7 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+14:25:47.963 7 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+14:25:47.964 7 W - 开始初始化实体类Domain
+14:25:47.969 7 W - 完成初始化实体类Domain
+14:25:49.326 7 W - 开始初始化实体类Subject
+14:25:49.326 7 W - 完成初始化实体类Subject
+14:25:50.883 8 W - 开始初始化实体类Year
+14:25:50.883 8 W - 完成初始化实体类Year
+14:25:50.943 8 W - 开始初始化实体类Indicator
+14:25:50.943 8 W - 完成初始化实体类Indicator
+
+#Software: iisexpress
+#ProcessID: 8620
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714838557894140
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:44:19.099 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:44:19.121 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:44:19.121 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 9676
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714839001433810
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:46:23.246 12 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:46:23.266 12 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:46:23.266 12 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 864
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714841854764877
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:49:48.216 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:49:48.236 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:49:48.236 6 W - 使用数据库方式：独占，加大缓存权重
+15:49:49.921 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=9；handshake=25；[Login] initialization=0；authentication=0；[Post-Login] complete=1018； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:979c858d-7754-4043-a954-42740b44abc6
+
+#Software: iisexpress
+#ProcessID: 10104
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714842213634163
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:50:24.075 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:50:24.091 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:50:24.091 6 W - 使用数据库方式：独占，加大缓存权重
+15:50:25.738 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=5；handshake=22；[Login] initialization=0；authentication=1；[Post-Login] complete=1020； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:328e9faa-43eb-4bb8-a6bf-93862876182d
+
+#Software: iisexpress
+#ProcessID: 1128
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714842689226043
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:51:11.388 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:51:11.402 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:51:11.402 6 W - 使用数据库方式：独占，加大缓存权重
+15:51:13.032 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=5；handshake=17；[Login] initialization=0；authentication=0；[Post-Login] complete=1018； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:2fc11a2b-11c8-4013-8edb-98bd3dd0bbac
+
+#Software: iisexpress
+#ProcessID: 11056
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714843207806709
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:52:24.553 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:52:24.567 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:52:24.567 6 W - 使用数据库方式：独占，加大缓存权重
+15:52:26.187 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=8；handshake=25；[Login] initialization=0；authentication=0；[Post-Login] complete=1016； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:f52af105-822d-4e61-b14b-a21b8b0bcc0e
+
+#Software: iisexpress
+#ProcessID: 9324
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714844255570991
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:53:50.518 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:53:50.538 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:53:50.538 6 W - 使用数据库方式：独占，加大缓存权重
+15:53:52.188 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=8；handshake=20；[Login] initialization=0；authentication=0；[Post-Login] complete=1011； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:9d20d0ed-9e17-4eeb-acf0-d34a50cd7aa3
+
+#Software: iisexpress
+#ProcessID: 8024
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714847194169299
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:58:50.050 7 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+15:58:50.064 7 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+15:58:50.064 7 W - 使用数据库方式：独占，加大缓存权重
+15:58:50.705 7 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:c5656423-9948-4d8d-9064-adb1e55d9105
+
+#Software: iisexpress
+#ProcessID: 2260
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714857490943906
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:15:53.322 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+16:15:53.337 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+16:15:53.337 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 4740
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714866073863936
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:30:09.960 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+16:30:09.976 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+16:30:09.976 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 3060
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714873210769665
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:42:03.891 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+16:42:03.905 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+16:42:03.905 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 6668
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714880944849673
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:55:47.114 9 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+16:55:47.133 9 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+16:55:47.133 9 W - 使用数据库方式：独占，加大缓存权重
+16:55:49.251 9 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 连接超时时间已到。在登录后阶段超过了此超时时间。连接可能在等待服务器完成登录过程并响应时超时；或者在尝试创建多个活动连接时超时。  尝试连接到此服务器时花费的持续时间是 - [Pre-Login] initialization=5；handshake=31；[Login] initialization=0；authentication=0；[Post-Login] complete=1021； ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:de09e847-eda4-418a-b11b-0b41a83b409e
+
+#Software: iisexpress
+#ProcessID: 2652
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714886730524292
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+17:04:37.519 7 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+17:04:37.533 7 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+17:04:37.533 7 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 3880
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714888630968459
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+17:07:45.819 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+17:07:45.841 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+17:07:45.841 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 1064
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714893454895052
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+17:15:48.151 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+17:15:48.165 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+17:15:48.165 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 6156
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714896238110362
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+17:20:26.337 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+17:20:26.352 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+17:20:26.352 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 5296
+#AppDomain: /LM/W3SVC/2/ROOT-1-130714928562651144
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-22
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+18:14:18.611 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+18:14:18.626 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+18:14:18.626 6 W - 使用数据库方式：独占，加大缓存权重

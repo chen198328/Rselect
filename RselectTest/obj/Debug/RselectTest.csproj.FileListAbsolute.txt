@@ -21,3 +21,17 @@ F:\兴趣项目\Rselect\RselectTest\bin\Debug\NewLife.Core.xml
 F:\兴趣项目\Rselect\RselectTest\bin\Debug\XCode.pdb
 F:\兴趣项目\Rselect\RselectTest\bin\Debug\XCode.xml
 F:\兴趣项目\Rselect\RselectTest\obj\Debug\RselectTest.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\RselectTest.dll.config
+D:\项目文档\Rselect\RselectTest\bin\Debug\RselectTest.dll
+D:\项目文档\Rselect\RselectTest\bin\Debug\RselectTest.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\Library.dll
+D:\项目文档\Rselect\RselectTest\bin\Debug\Library.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\NewLife.CommonEntity.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\NewLife.CommonEntity.xml
+D:\项目文档\Rselect\RselectTest\bin\Debug\NewLife.Core.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\NewLife.Core.xml
+D:\项目文档\Rselect\RselectTest\bin\Debug\XCode.pdb
+D:\项目文档\Rselect\RselectTest\bin\Debug\XCode.xml
+D:\项目文档\Rselect\RselectTest\obj\Debug\RselectTest.csprojResolveAssemblyReference.cache
+D:\项目文档\Rselect\RselectTest\obj\Debug\RselectTest.dll
+D:\项目文档\Rselect\RselectTest\obj\Debug\RselectTest.pdb

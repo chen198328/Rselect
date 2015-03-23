@@ -66,7 +66,7 @@ namespace RSelectWeb
         }
         public static List<string> GetIndicatorNameListByDomainName(string domain)
         {
-            string sql = "select distinct [IndicatorName] from [ViewIndicatorAll] where [Domain]=@domain";
+            string sql = "select distinct [IndicatorName],[Order] from [ViewIndicatorAll] where [Domain]=@domain order by [Order]";
             SqlParameter para = new SqlParameter("@domain", domain);
             IDataReader iReader = SqlHelper.ExecuteReader(Conn, CommandType.Text, sql, para);
             List<string> IndicatorNameList = new List<string>();
@@ -94,16 +94,16 @@ namespace RSelectWeb
             StringBuilder sql = new StringBuilder();
             if (subjecList.Count == 0)
             {
-                sql.AppendFormat("select [Subject],[IndicatorName],[Value],[Year] from [ViewIndicatorAll] where [Subject]='{0}' and [IndicatorName]='{1}' and [Year]='{2}'", subjecList[0], indicatorname, year);
+                sql.AppendFormat("select [Subject],[IndicatorName],[Value],[Year] from [ViewIndicatorAll] where [SubjectId]='{0}' and [IndicatorName]='{1}' and [Year]='{2}' order by [Value] desc ", subjecList[0], indicatorname, year);
             }
             else
             {
-                sql.AppendFormat("select [Subject],[IndicatorName],[Value],[Year] from [ViewIndicatorAll] where [Subject]='{0}' and [IndicatorName]='{1}' and [Year]='{2}'", subjecList[0], indicatorname, year);
-                for (int index = 1; index < subjecList.Count; index++)
+                StringBuilder sb = new StringBuilder();
+                foreach (var item in subjecList)
                 {
-                    sql.AppendFormat("union select [Subject],[IndicatorName],[Value],[Year] from [ViewIndicatorAll] where [Subject]='{0}' and [IndicatorName]='{1}' and [Year]='{2}'", subjecList[index], indicatorname, year);
-
+                    sb.AppendFormat(",'{0}'", item);
                 }
+                sql.AppendFormat("select [Subject],[IndicatorName],[Value],[Year] from [ViewIndicatorAll] where [SubjectId] in ({0}) and [IndicatorName]='{1}' and [Year]='{2}' order by [Value] desc ", sb.ToString().Substring(1), indicatorname, year);
             }
             IDataReader iReader = SqlHelper.ExecuteReader(Conn, CommandType.Text, sql.ToString(), null);
             List<Indicator> indicatorList = new List<Indicator>();
@@ -119,7 +119,6 @@ namespace RSelectWeb
 
             return indicatorList;
         }
-
     }
     public class Indicator
     {

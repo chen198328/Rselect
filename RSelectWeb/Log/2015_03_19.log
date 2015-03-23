@@ -1,0 +1,42 @@
+﻿#Software: iisexpress
+#ProcessID: 4452
+#AppDomain: /LM/W3SVC/2/ROOT-1-130712430987616389
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-19
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+20:51:42.200 6 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+20:51:42.256 6 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+20:51:42.257 6 W - 开始初始化实体类Domain
+20:51:42.260 6 W - 完成初始化实体类Domain
+20:51:44.504 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+20:51:44.557 6 W - GetSchema(MetaDataCollections)异常重试！无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。,连接字符串 server=localhost;database=Rselect;User id=sa;Password=123456;TimeOut=2;Application Name=XCode_RSelectWeb_Rselect
+20:51:45.006 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+20:51:45.048 6 W - GetSchema(ReservedWords)异常重试！无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。,连接字符串 server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+20:51:45.221 6 W - 导致错误的连接字符串：server=localhost;database=Rselect;user id=sa;password=123456;timeout=2;application name=XCode_RSelectWeb_Rselect
+
+#Software: iisexpress
+#ProcessID: 13564
+#AppDomain: /LM/W3SVC/2/ROOT-1-130712493506193980
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-19
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:35:54.925 7 W - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:35:54.941 7 W - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:35:54.941 7 W - 开始初始化实体类Domain
+22:35:54.957 7 W - 完成初始化实体类Domain
+22:35:56.049 7 W - 开始初始化实体类Subject
+22:35:56.049 7 W - 完成初始化实体类Subject

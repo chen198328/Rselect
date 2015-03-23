@@ -1,0 +1,364 @@
+﻿#Software: iisexpress
+#ProcessID: 8612
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715884859756127
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+20:48:11.934 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+20:48:11.950 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+20:48:11.950 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7372
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715886565390439
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+20:50:58.957 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+20:50:58.972 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+20:50:58.972 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 5916
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715887664467049
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+20:52:48.942 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+20:52:48.958 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+20:52:48.958 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7712
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715900942637790
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:14:58.132 7 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:14:58.163 7 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:14:58.163 7 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7952
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715902386087665
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:17:21.276 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:17:21.291 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:17:21.291 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7152
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715903349615349
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:19:26.848 7 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:19:26.864 7 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:19:26.864 7 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 2196
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715904934122815
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:21:35.986 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:21:35.986 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:21:35.986 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 2072
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715914823118810
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:38:05.899 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:38:05.915 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:38:05.915 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 8008
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715915796838238
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:40:18.231 5 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:40:18.246 5 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:40:18.246 5 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 4108
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715918224171040
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:43:45.677 7 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:43:45.693 7 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:43:45.693 7 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 8884
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715920058288481
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+21:46:49.104 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+21:46:49.120 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+21:46:49.120 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 6760
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715935834537244
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:13:06.341 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:13:06.357 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:13:06.357 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 6060
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715936518680171
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:14:14.442 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:14:14.457 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:14:14.457 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 4024
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715953218158583
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:42:29.166 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:42:29.182 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:42:29.182 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 60
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715956283644687
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:47:11.832 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:47:11.850 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:47:11.850 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 2900
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715957533499283
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:49:16.739 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:49:16.757 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:49:16.757 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 3796
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715963923823071
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:59:56.345 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+22:59:56.364 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+22:59:56.364 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7888
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715964415412796
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:00:44.482 8 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+23:00:44.502 8 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+23:00:44.502 8 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 7004
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715965381605774
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:03:34.288 10 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+23:03:34.306 10 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+23:03:34.306 10 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 3016
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715987643894897
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:39:27.370 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+23:39:27.383 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+23:39:27.383 6 W - 使用数据库方式：独占，加大缓存权重
+23:39:28.062 6 W - 查询[Rselect]的版本时出错，将按MSSQL2000进行分页处理！System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Rselect"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XCode.DataAccessLayer.DbSession.Open()
+   在 XCode.DataAccessLayer.SqlServer.get_Version()
+ClientConnectionId:b934fc2d-a649-41cb-918f-7bf825831b05
+
+#Software: iisexpress
+#ProcessID: 3456
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715988123542697
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:41:18.310 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+23:41:18.326 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+23:41:18.326 6 W - 使用数据库方式：独占，加大缓存权重
+
+#Software: iisexpress
+#ProcessID: 8784
+#AppDomain: /LM/W3SVC/2/ROOT-1-130715991973927645
+#FileName: C:\Program Files (x86)\IIS Express\iisexpress.exe
+#BaseDirectory: D:\项目文档\Rselect\RSelectWeb\
+#CurrentDirectory: C:\Program Files (x86)\IIS Express
+#CommandLine: /config:"C:\Users\Chen198328\Documents\IISExpress\config\applicationhost.config"  /site:"RSelectWeb" /apppool:"Clr4IntegratedAppPool"
+#ApplicationType: Console
+#CLR: 4.0.30319.18449
+#OS: Windows 8 x64, Chen198328/ROY-PC
+#Date: 2015-03-23
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:47:44.404 6 W - NewLife.Core v4.6.2014.0907 Build 2014-09-11 12:00:42
+23:47:44.424 6 W - NewLife.XCode v8.13.2014.0720 Build 2014-09-11 11:59:46
+23:47:44.424 6 W - 使用数据库方式：独占，加大缓存权重

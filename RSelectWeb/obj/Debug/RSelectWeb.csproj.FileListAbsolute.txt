@@ -29,12 +29,6 @@ D:\项目文档\Rselect\RSelectWeb\bin\RSelectWeb.pdb
 D:\项目文档\Rselect\RSelectWeb\bin\Library.dll
 D:\项目文档\Rselect\RSelectWeb\bin\Microsoft.Web.Infrastructure.dll
 D:\项目文档\Rselect\RSelectWeb\bin\Library.pdb
-D:\项目文档\Rselect\RSelectWeb\bin\NewLife.CommonEntity.pdb
-D:\项目文档\Rselect\RSelectWeb\bin\NewLife.CommonEntity.xml
-D:\项目文档\Rselect\RSelectWeb\bin\NewLife.Core.pdb
-D:\项目文档\Rselect\RSelectWeb\bin\NewLife.Core.xml
-D:\项目文档\Rselect\RSelectWeb\bin\XCode.pdb
-D:\项目文档\Rselect\RSelectWeb\bin\XCode.xml
 D:\项目文档\Rselect\RSelectWeb\obj\Debug\RSelectWeb.csprojResolveAssemblyReference.cache
 D:\项目文档\Rselect\RSelectWeb\obj\Debug\RSelectWeb.dll
 D:\项目文档\Rselect\RSelectWeb\obj\Debug\RSelectWeb.pdb

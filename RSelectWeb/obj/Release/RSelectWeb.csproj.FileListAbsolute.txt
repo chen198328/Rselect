@@ -1,0 +1,9 @@
+D:\项目文档\Rselect\RSelectWeb\obj\Release\RSelectWeb.csprojResolveAssemblyReference.cache
+D:\项目文档\Rselect\RSelectWeb\bin\RSelectWeb.dll.config
+D:\项目文档\Rselect\RSelectWeb\bin\RSelectWeb.dll
+D:\项目文档\Rselect\RSelectWeb\bin\RSelectWeb.pdb
+D:\项目文档\Rselect\RSelectWeb\bin\Library.dll
+D:\项目文档\Rselect\RSelectWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\项目文档\Rselect\RSelectWeb\bin\Library.pdb
+D:\项目文档\Rselect\RSelectWeb\obj\Release\RSelectWeb.dll
+D:\项目文档\Rselect\RSelectWeb\obj\Release\RSelectWeb.pdb

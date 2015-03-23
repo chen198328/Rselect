@@ -1,0 +1,5 @@
+D:\项目文档\Rselect\Library\bin\Release\Library.dll
+D:\项目文档\Rselect\Library\bin\Release\Library.pdb
+D:\项目文档\Rselect\Library\obj\Release\Library.dll
+D:\项目文档\Rselect\Library\obj\Release\Library.pdb
+D:\项目文档\Rselect\Library\obj\Release\Library.csprojResolveAssemblyReference.cache

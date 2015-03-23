@@ -121,6 +121,20 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity.cs" />
+    <Compile Include="Institute.aspx.cs">
+      <DependentUpon>Institute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Institute.aspx.designer.cs">
+      <DependentUpon>Institute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paper.aspx.cs">
+      <DependentUpon>Paper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paper.aspx.designer.cs">
+      <DependentUpon>Paper.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlHelper.cs" />
   </ItemGroup>
@@ -225,6 +239,7 @@
     <Content Include="img\line.png" />
     <Content Include="img\power.png" />
     <Content Include="img\scatter.png" />
+    <Content Include="Institute.aspx" />
     <Content Include="js\bootstrap.css" />
     <Content Include="js\jquery-1.8.2.min.js" />
     <Content Include="js\jquery.js" />
@@ -233,6 +248,7 @@
     <Content Include="modal\bootstrap.css" />
     <Content Include="modal\bootstrap.js" />
     <Content Include="modal\jquery.js" />
+    <Content Include="Paper.aspx" />
     <Content Include="Web.config" />
     <Content Include="bootstrap\config.json" />
     <Content Include="bootstrap\css\bootstrap-select.css.map" />
@@ -279,6 +295,7 @@
     <Content Include="echart\util\mapData\rawData\geoJson\xi_zang_geo.json" />
     <Content Include="echart\util\mapData\rawData\geoJson\yun_nan_geo.json" />
     <Content Include="echart\util\mapData\rawData\geoJson\zhe_jiang_geo.json" />
+    <None Include="Properties\PublishProfiles\Rselect.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

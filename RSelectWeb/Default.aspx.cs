@@ -37,7 +37,11 @@ namespace RSelectWeb
                     indicators = Request.Form["indicator"];
                     domain = GetSelectedDomain();
 
-                    if (years.Contains(",") && subjects.Contains(",") && indicators.Contains(","))
+                    List<string> yearlist = GetList(years);
+                    List<string> subjectlist = GetList(subjects);
+                    List<string> indicatorlist = GetList(indicators);
+
+                    if (indicatorlist.Count > 2 || (indicators.Contains("综合度") && indicatorlist.Count > 1) || (yearlist.Count == 0 || subjectlist.Count == 0 || indicatorlist.Count == 0))
                     {
                         isSubmit = false;
                     }
@@ -250,6 +254,25 @@ namespace RSelectWeb
             // Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "alter", scriptstrs);
             //Page.ClientScript.RegisterStartupScript(this.GetType(), "alert", scriptstrs);
 
+        }
+        List<string> GetList(string input)
+        {
+            List<string> list = new List<string>();
+            if (string.IsNullOrEmpty(input))
+                return list;
+            if (input.Contains(","))
+            {
+                string[] temp = input.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+                for (int index = 0; index < temp.Length; index++)
+                {
+                    list.Add(temp[index].Trim());
+                }
+            }
+            else
+            {
+                list.Add(input.Trim());
+            }
+            return list;
         }
     }
 }
