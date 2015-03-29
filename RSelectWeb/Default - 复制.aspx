@@ -66,31 +66,78 @@
             <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
                 <ul class="list-group">
                     <li class="list-group-item active text-center">领域选择</li>
-                    <% if (!string.IsNullOrEmpty(domain))
-                       { %>
                     <li class="list-group-item">
                         <div class="radio">
                             <label>
-                                <input type="radio" value="<%=domain%>" checked='checked' name="domain" onclick="post()" />
-                                <%=domain%>
+                                <asp:RadioButton runat="server" ID="radioChemistry" GroupName="domain" Checked="true" AutoPostBack="true" OnCheckedChanged="radioChemistry_CheckedChanged" />
+                                化学
                             </label>
                         </div>
                     </li>
-                    <%} %>
-                    <%for (int index = 0; index < DomainList.Count; index++)
-                      { %>
-                    <% if (DomainList[index].Name != domain)
-                       { %>
                     <li class="list-group-item">
                         <div class="radio">
                             <label>
-                                <input type="radio" value="<%=DomainList[index].Name%>" name="domain" onclick="post()" />
-                                <%=DomainList[index].Name%>
+                                <asp:RadioButton runat="server" ID="radioEngineer" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioEngineer_CheckedChanged" />
+                                工程技术
                             </label>
                         </div>
                     </li>
-                    <%}
-                      } %>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioDixuetianwen" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioDixuetianwen_CheckedChanged" />
+                                地学天文
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioYixue" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioYixue_CheckedChanged" />
+                                医学
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioNonglinkexue" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioNonglinkexue_CheckedChanged" />
+                                农林科学
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioGuanlixue" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioGuanlixue_CheckedChanged" />
+                                管理科学
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioWuli" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioWuli_CheckedChanged" />
+                                物理
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioHuanjing" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioHuanjing_CheckedChanged" />
+                                环境科学与生态学
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="radio">
+                            <label>
+                                <asp:RadioButton runat="server" ID="radioDixue" GroupName="domain" AutoPostBack="true" OnCheckedChanged="radioDixue_CheckedChanged" />
+                                地学
+                            </label>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
@@ -266,10 +313,5 @@
             </div>
         </div>
     </form>
-    <script>
-        function post() {
-            form1.submit();
-        }
-    </script>
 </body>
 </html>

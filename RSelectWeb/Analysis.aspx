@@ -79,17 +79,20 @@
             <div class="col-lg-10">
                 <div>
                     <label class="control-label">领域选择</label>
-                    <asp:DropDownList ID="domainlist" runat="server" class="selectpicker" AutoPostBack="true" data-style="btn-primary" OnSelectedIndexChanged="domainlist_SelectedIndexChanged">
-                        <asp:ListItem>化学</asp:ListItem>
-                        <asp:ListItem>工程技术</asp:ListItem>
-                        <asp:ListItem>地学天文</asp:ListItem>
-                        <asp:ListItem>医学</asp:ListItem>
-                        <asp:ListItem>农林科学</asp:ListItem>
-                        <asp:ListItem>管理科学</asp:ListItem>
-                        <asp:ListItem>物理</asp:ListItem>
-                        <asp:ListItem>环境科学与生态学</asp:ListItem>
-                        <asp:ListItem>地学</asp:ListItem>
-                    </asp:DropDownList>
+
+                    <select name="domain" class="selectpicker" id="domainlist" data-style="btn-primary">
+                        <% if (!string.IsNullOrEmpty(domain))
+                           { %>
+                        <option selected="selected"><%=domain %></option>
+                        <%} %>
+                        <%for (int index = 0; index < DomainList.Count; index++)
+                          { %>
+                        <%if (DomainList[index].Name != domain)
+                          { %>
+                        <option><%=DomainList[index].Name %></option>
+                        <%}
+                          }%>
+                    </select>
 
                     <label class="control-label marginleft">主题选择 </label>
                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#largeModal"><span id="TitleCount"><%=selectSubjectIds.Count %>/<%=SubjectList_.Count %></span></a>
@@ -528,6 +531,7 @@
                         legend: {
                             data: [<%=scattermodel.Legend%>]
                         },
+                        color: ['#FF0000 '],
                         toolbox: {
                             show: true,
                             feature: {
@@ -565,6 +569,9 @@
                             {
                                 name: '<%=scattermodel.SeriesData[index].name%>',
                                 type: 'scatter',
+                                symbolSize: function (value) {
+                                    return Math.round(value[0] * value[1] * 20);
+                                },
                                 data: [<%=scattermodel.SeriesData[index].data%>]
                             }<%=index<scattermodel.SeriesData.Count-1?",":""%>
                             <%}%>

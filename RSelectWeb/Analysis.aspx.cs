@@ -70,11 +70,17 @@ namespace RSelectWeb
         /// 数据展示方式 0=柱状图 1 线图 2 散点图 
         /// </summary>
         public int PageType = 0;
+
+        public List<Domain> DomainList = new List<Domain>();
+        public string domain = string.Empty;
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            DomainList = Domain.FindAll().ToList<Domain>();
+            domain = Request.Form["domain"];
             if (!IsPostBack)
             {
-                string domain = Session["domain"] as string;
+                domain = Session["domain"] as string;
                 selectYears = Session["years"] as string;
                 selectIndicatorName = Session["indicators"] as string;
                 string subjects = Session["subjects"] as string;
@@ -91,19 +97,20 @@ namespace RSelectWeb
                 {
                     IndicatorNameList = Entity.GetIndicatorNameListByDomainName(domain);
                 }
-                domainlist.Text = domain;
+                //domainlist.Text = domain;
                 if (string.IsNullOrEmpty(domain))
                 {
-                    ChangeDomain("化学");
+                    domain = "应用化学";
                 }
-                else { ChangeDomain(domain); }
                 GetDataDraw(subjects, selectIndicatorName, selectYears);
             }
             else
             {
                 //postback
 
+
             }
+            ChangeDomain(domain);
         }
         /// <summary>
         /// 获取数据
@@ -724,7 +731,7 @@ namespace RSelectWeb
 
         protected void domainlist_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string domain = domainlist.Text;
+            //string domain = domainlist.Text;
             ChangeDomain(domain);
         }
         private void AlertMessage(string message)
@@ -772,7 +779,7 @@ namespace RSelectWeb
             selectSubjectIds = GetList(subjects);
             selectYears = years;
             selectIndicatorName = indicators;
-            string domain = domainlist.Text;
+           // string domain = domainlist.Text;
             ChangeDomain(domain);
         }
 
